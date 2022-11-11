@@ -16,4 +16,4 @@ This mission includes the following steps:
 
 ![](/images/Hello_World_app.png)
 
-![](https://github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world/edit/main/images/Hello_World_app.png)
+![](/main/images/Hello_World_app.png)
