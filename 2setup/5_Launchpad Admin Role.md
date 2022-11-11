@@ -21,7 +21,7 @@ Note that the &ldquo;Launchpad_Admin&rdquo; role was automatically created with 
 You can see all the details of the <code>Launchpad_Admin</code> role collection.
 
 
-6.Click <strong>Edit</strong>
+6. Click <strong>Edit</strong>
 
 ![](../images/Click_edit.png)
 
