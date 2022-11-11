@@ -14,6 +14,6 @@ This mission includes the following steps:
 
 * **Integrate** the app into SAP Launchpad
 
-![](/images/Hello_World_app.png)
+![](./images/Hello_World_app.png)
 
 ![](/main/images/Hello_World_app.png)
