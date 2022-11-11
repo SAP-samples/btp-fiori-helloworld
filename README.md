@@ -6,8 +6,16 @@
 -->
 
 ## Description
-<!-- Please include SEO-friendly description -->
-You will create a simple custom UI application, show the usage of the HTML5 repository and the different options how to expose this application - as a stand-alone or with the SAP Launchpad environment. 
+The goal of this mission is to create a simple Hello World application using SAPUI5 / SAP Fiori running on SAP Business Technology Platform (SAP BTP) leveraging SAP Business Application Studio (BAS), Cloud Foundry runtime, and SAP Launchpad Service.
+
+This mission includes the following steps:
+
+* Setup of **SAP BTP** account and subaccount - to give you access the to the SAP BTP Cockpit administration interface. See next section Requirements.
+
+* Setup of **SAP Launchpad Service** - to give you access to create and configure the central point of entry for your users
+
+* Setup of **SAP Business Application Studio** - to give you access to the development environment. See section Setup your BTP Trial Account.
+ 
 
 
 ## Requirements
@@ -21,14 +29,20 @@ An SAP BTP trial account with entitlements for:
 Go To Your Trial Account with this link: [Welcome to SAP BTP trial](https://cockpit.hanatrial.ondemand.com/trial/#/home/trial)
 
 For more information see the steps:
-[Sign up for a free trial account on SAP BTP](https://github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world/blob/main/2setup/2_Universal%20ID.md) and 
-[Create your SAP BTP Trial account](https://github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world/blob/main/2setup/3_Setup%20Trial.md)
+
+1. [Sign up for a free trial account on SAP BTP](https://github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world/blob/main/2setup/2_Universal%20ID.md) and 
+2. [Create your SAP BTP Trial account](https://github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world/blob/main/2setup/3_Setup%20Trial.md)
 
 
-## Download and Installation
+## Setup your BTP Trial Account
+
+Follow this guide to setup your [**SAP Launchpad Service** ](https://github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world/blob/main/2setup/4_Setup%20Launchpad.md)
+
+Follow this guide to setup your [**SAP Business Application Studio**](https://github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world/blob/main/3develop/1_BAS.md)
+ 
 
 ## Known Issues
-<!-- You may simply state "No known issues. -->
+"No known issues.
 
 ## How to obtain support
 [Create an issue](https://github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world/issues) in this repository if you find a bug or have questions about the content.
