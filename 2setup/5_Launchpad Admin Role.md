@@ -4,7 +4,7 @@ To be able to manage the SAP Launchpad service, users must be assigned to the <c
 
 1. Click **Role Collections** from the side menu under <strong>Security</strong>
   
-![Open role collections](../images/Role_collections.png)
+![](../images/Role_collections.png)
   
   
 
