@@ -21,7 +21,7 @@ You will create a simple custom UI application, show the usage of the HTML5 repo
 <!-- You may simply state "No known issues. -->
 
 ## How to obtain support
-[Create an issue]([https://github.com/SAP-samples/<repository-name>/issues](https://github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world/issues)) in this repository if you find a bug or have questions about the content.
+[Create an issue](https://github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world/issues) in this repository if you find a bug or have questions about the content.
  
 For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
 
