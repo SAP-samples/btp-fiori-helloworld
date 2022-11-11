@@ -1,9 +1,6 @@
 # Get Started on SAP BTP by Creating a "Hello World" App with SAPUI5/SAP Fiori
-<!-- Please include descriptive title -->
 
-<!--- Register repository https://api.reuse.software/register, then add REUSE badge:
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
--->
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world)](https://api.reuse.software/info/github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world)
 
 ## Description
 <!-- Please include SEO-friendly description -->
