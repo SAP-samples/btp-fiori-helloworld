@@ -14,5 +14,5 @@ The SAP Launchpad service opens with the Site Directory in focus. This is where 
 
 You will go to the Launchpad Site Manager again later after all services are prepared.
 
-   ![](../images/Open_site_directory.png)
+![](../images/Open_site_directory.png)
      
