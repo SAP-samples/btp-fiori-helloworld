@@ -1,4 +1,5 @@
-**Add yourself to the Launchpad Admin role*
+**Add yourself to the Launchpad Admin role**
+
 
 To be able to manage the SAP Launchpad service, users must be assigned to the <code>Launchpad_Admin</code> role. In this step, you'll assign yourself to this role so that you can access the admin area of the service and create a launchpad site.
 
@@ -16,7 +17,7 @@ Note that the &ldquo;Launchpad_Admin&rdquo; role was automatically created with 
 
 ![](../images/Open_role_collection.png)
 
-     You can see all the details of the&nbsp;<code>Launchpad_Admin</code>&nbsp;role collection.
+You can see all the details of the <code>Launchpad_Admin</code> role collection.
 
 
 6.Click <strong>Edit</strong>
@@ -28,7 +29,7 @@ Note that the &ldquo;Launchpad_Admin&rdquo; role was automatically created with 
 Keep the the default identity provider. Then click <strong>Save</strong>.
 
 
-![](../images/Add_emails.png
+![](../images/Add_emails.png)
 
 
 You've now been assigned to the <code>Launchpad_Admin</code> role collection and you can access the SAP Launchpad service and carry out all your admin tasks. 
