@@ -1,6 +1,6 @@
 **Sign up for a free trial account on SAP BTP**
 You will learn
-![](../images/Register_for_Trial.png)
+
 - How to register on the SAP website</li>
 - How to start your SAP BTP Trial</li>
 - How to navigate to your sub-account and space</li>
