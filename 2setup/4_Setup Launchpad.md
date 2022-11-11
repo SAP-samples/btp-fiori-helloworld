@@ -10,21 +10,21 @@ that the SAP Launchpad service offers two types of standard plans. The **Applica
 In your trial subaccount click **Service Marketplace** in the left navigation panel under **Services**
 The Service Marketplace provides you access to all services and applications that you can access from the SAP BTP cockpit.
 
-![](/images/Service_marketplace.png)
+![](/..images/Service_marketplace.png)
         
 
 Enter <code>launchpad</code> in the search box and click on the **Launchpad Service**
 
 
-![](/images/Find_launchpad.png)
+![](/..images/Find_launchpad.png)
 <p>If you clicked on the Launchpad Service Tile the Launchpad Service page opens with 3 tabs that include information about the service (overview) as well as the two different plans (Service and Application Plans).</p>
 </li>
 <li>
-<p>Under the&nbsp;<strong>Applications Plans</strong>&nbsp;tab, click the Actions icon (&hellip;) and select&nbsp;<strong>Create</strong>&nbsp;to create a new subscription.<br /><br /><img src="/images/Create_subscription.png" width="815" height="327" /></p>
+<p>Under the&nbsp;<strong>Applications Plans</strong>&nbsp;tab, click the Actions icon (&hellip;) and select&nbsp;<strong>Create</strong>&nbsp;to create a new subscription.<br /><br /><img src="../images/Create_subscription.png" width="815" height="327" /></p>
 </li>
 <li>
 <p>In the&nbsp;<strong>New Instance or Subscription</strong>&nbsp;dialog box that opens, leave the basic information that appears there and click&nbsp;<strong>Create</strong>.</p>
-<p><img src="/images/Create.png" alt="Create" width="805" height="355" /></p>
+<p><img src="../images/Create.png" alt="Create" width="805" height="355" /></p>
 </li>
 <li>
 <p>You'll get the confirmation that your subscription is being created. Click <strong>View Subscription</strong>.</p>
