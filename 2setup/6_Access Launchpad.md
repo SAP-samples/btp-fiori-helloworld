@@ -2,7 +2,7 @@
 <p>You are now ready to access the SAP Launchpad service as admin / site manager of the launchpad.
 
 
-1. From the side panel, click&nbsp;<strong>Instances and Subscriptions&nbsp;</strong>under <strong>Services</strong>.</p>
+1. From the side panel, click&nbsp;<strong>Instances and Subscriptions </strong>under <strong>Services</strong>.</p>
   
      ![](../images/Instances_and_subscriptions.png)
 
