@@ -26,7 +26,7 @@ An SAP BTP trial account with entitlements for:
 - SAP Business Application Studio
 - SAP Launchpad Service
 
-Go To Your Trial Account with this link: [Welcome to SAP BTP trial](https://cockpit.hanatrial.ondemand.com/trial/#/home/trial)
+Go to your SAP BTP Trial Account with this link: [Welcome to SAP BTP trial](https://cockpit.hanatrial.ondemand.com/trial/#/home/trial)
 
 For more information see the following step-by-step guides:
 
