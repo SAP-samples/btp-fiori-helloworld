@@ -7,21 +7,25 @@ To create a Central Point of Entry for your users, you need the SAP Launchpad Se
 Before you can access the SAP Launchpad Service, you first need to subscribe to it as this service is not pre-configured with your trial account.
 that the SAP Launchpad service offers two types of standard plans. The **Applications Plan** which is used to access your applications from the launchpad. In this case, you need to create a subscription to the SAP Launchpad service, which you will do with the following steps. The 2nd plan is the **Service Plan** which is used to integrate with other services. This plan is not required for the scope of this tutorial.
 
-In your trial subaccount click **Service Marketplace** in the left navigation panel under **Services**
+1. In your trial subaccount click **Service Marketplace** in the left navigation panel under **Services**
 The Service Marketplace provides you access to all services and applications that you can access from the SAP BTP cockpit.
 
-![](/..images/Service_marketplace.png)
+![](../images/Service_marketplace.png)
         
 
-Enter <code>launchpad</code> in the search box and click on the **Launchpad Service**
+2. Enter <code>launchpad</code> in the search box and click on the **Launchpad Service**
+
+![](../images/Find_launchpad.png)
 
 
-![](/..images/Find_launchpad.png)
-<p>If you clicked on the Launchpad Service Tile the Launchpad Service page opens with 3 tabs that include information about the service (overview) as well as the two different plans (Service and Application Plans).</p>
-</li>
-<li>
-<p>Under the&nbsp;<strong>Applications Plans</strong>&nbsp;tab, click the Actions icon (&hellip;) and select&nbsp;<strong>Create</strong>&nbsp;to create a new subscription.<br /><br /><img src="../images/Create_subscription.png" width="815" height="327" /></p>
-</li>
+If you clicked on the Launchpad Service Tile the Launchpad Service page opens with 3 tabs that include information about the service (overview) as well as the two different plans (Service and Application Plans).
+
+3. Under the **Applications Plans** tab, click the Actions icon (&hellip;) and select **Create** to create a new subscription.
+
+![](../images/Create_subscription.png)
+
+
+
 <li>
 <p>In the&nbsp;<strong>New Instance or Subscription</strong>&nbsp;dialog box that opens, leave the basic information that appears there and click&nbsp;<strong>Create</strong>.</p>
 <p><img src="../images/Create.png" alt="Create" width="805" height="355" /></p>
