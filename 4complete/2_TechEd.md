@@ -1,3 +1,4 @@
+![](/images/TechEd_picture2.png)
 Browse through the <a href="https://go3.events.sap.com/sapteched/hybrid/2022/reg/flow/sap/saptech2022/sapteched2022catalog/page/catalog/session/1661198449175001XUYx" target="_blank">SAP TechEd 2022 Session Catalog</a> to join and watch additional sessions. <br>Here a few top picks as recommendation for you:
 
 #### SAP Business Technology Platform (General) Track
@@ -20,4 +21,4 @@ Browse through the <a href="https://go3.events.sap.com/sapteched/hybrid/2022/reg
 
 **Check [learning.sap.com/teched](https://learning.sap.com/teched)** and join the the [SAP TechEd](https://groups.community.sap.com/t5/sap-teched/gh-p/SAP-TechEd-Group) and [SAP Learning Groups](https://groups.community.sap.com/t5/sap-learning-groups/ct-p/SAP-Learning) in **SAP Community** to connect with experts, share your knowledge, expand your network, and collaborate with peers!
 
-<img src="/images/TechEd_picture2.png" width="80%">
+![](/images/TechEd_picture2.png)
