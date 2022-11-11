@@ -13,12 +13,16 @@ Enter Trial Account
 
 ![](../images/Create_Account.png)
 
+
 3. You will then see a dialog box while the account is set up. 
 
-![](../images/Welcome_to_Trial.png) 
+![](../images/Welcome_to_Trial.png)
+
 
 When complete, click **Continue** to close to popup and to navigate to the new account.
+
 ![](../images/Welcome_to_Trial2.png)
+
 
 The global trial account contains&nbsp;<strong>one</strong> subaccount and space.&nbsp;</p>
 
@@ -26,6 +30,10 @@ The global trial account contains&nbsp;<strong>one</strong> subaccount and space
 
 ![](../images/Trial.png)
 
+
 You will be on the Overview page of your BTP Cockpit:
+
 ![](../images/Cockpit.png")
+
+
 
