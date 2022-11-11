@@ -25,7 +25,7 @@ Now let us **change the title of the app** to "HelloWorld".
 
 You will see the changes in the application preview accordingly: "HelloWorld" instead of "Hello World App Title".
 
-     ![](../images/App_new.png)>
+![](../images/App_new.png)
  
 
  
