@@ -28,17 +28,17 @@ An SAP BTP trial account with entitlements for:
 
 Go To Your Trial Account with this link: [Welcome to SAP BTP trial](https://cockpit.hanatrial.ondemand.com/trial/#/home/trial)
 
-For more information see the steps:
+For more information see the following step-by-step guides:
 
-1. [Sign up for a free trial account on SAP BTP](https://github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world/blob/main/2setup/2_Universal%20ID.md) and 
-2. [Create your SAP BTP Trial account](https://github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world/blob/main/2setup/3_Setup%20Trial.md)
+1. [Sign up for a free trial account on SAP BTP](/2setup/2_Universal%20ID.md) and 
+2. [Create your SAP BTP Trial account](/2setup/3_Setup%20Trial.md)
 
 
 ## Setup your BTP Trial Account
 
-Follow this guide to setup your [**SAP Launchpad Service** ](https://github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world/blob/main/2setup/4_Setup%20Launchpad.md)
+Follow this guide to setup your [**SAP Launchpad Service** ](/2setup/4_Setup%20Launchpad.md)
 
-Follow this guide to setup your [**SAP Business Application Studio**](https://github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world/blob/main/3develop/1_BAS.md)
+Follow this guide to setup your [**SAP Business Application Studio**](/3develop/1_BAS.md)
  
 
 ## Known Issues
