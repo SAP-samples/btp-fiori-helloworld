@@ -22,7 +22,7 @@ This mission includes the following steps:
 
 The following requirements have to be met: 
 
-An SAP BTP trial account with entitlements for:
+An SAP BTP trial account with the build-in entitlements for:
 - SAP Business Application Studio
 - SAP Launchpad Service
 
@@ -36,9 +36,22 @@ For more information see the following step-by-step guides:
 
 ## Setup your BTP Trial Account
 
-Follow this guide to setup your [**SAP Launchpad Service** ](/2setup/4_Setup%20Launchpad.md)
+To setup your BTP Trial Account follow this step-by-step guides:
 
-Follow this guide to setup your [**SAP Business Application Studio**](/3develop/1_BAS.md)
+1. [Setup SAP Launchpad Service](/2setup/4_Setup%20Launchpad.md)
+2. [Setup SAP Business Application Studio](/3develop/1_BAS.md)
+
+
+## Create your Hello World App
+
+To create your Hello Wolrd app follow this step-by-step guides:
+
+1. [Create an SAP Fiori Application with "Start from template"](/3develop/2_Create%20app.md)
+2. [test and preview the UI application in SAP Business Application Studio](/3develop/3_Test.md)
+3. [Build and deploy your HelloWorld the cloud application ](/3develop/4_Build.md)
+4. [Configure your HTML5 Application for the Launchpad ](/3develop/5_Prepare%20Launchpad.md)
+5. [Create a Launchpad Site](/3develop/6_Integrate.md)
+6. [add your App to the Launchpad](/3develop/7_Add%20to%20Launchpad.md)
  
 
 ## Known Issues
