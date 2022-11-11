@@ -1,8 +1,10 @@
+![](../images/Refresh.png)
+
 Finally you need to add your App to the Launchpad group and role.
 
 1. Navigate to <strong>Channel Manager</strong> on the left to check your Content Providers and to <strong>refresh</strong> the list of HTML5 Applications. 
   
-![](../images/Refresh.png)</li>
+![](../images/Refresh.png)
   
 2. Click on the <strong>Content Manager</strong> and on tab <strong>Content Explorer</strong> tab, and select <strong>HTML5 Apps</strong> to see the list of HTML5 applications you have in your <strong>HTML5 Applications</strong> (the Managed Application Router provided by SAP Launchpad).<br /><br / 
   
