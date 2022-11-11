@@ -1,16 +1,22 @@
-<p ="text-align: left;"><span ="font-family: verdana, geneva, sans-serif; font-size: 10pt;">To create a Central Point of Entry for your users, you need the SAP Launchpad Service<br /><br /></span></p>
-<p ="text-align: left;"><strong>Subscribe to the SAP Launchpad Service</strong></p>
-<p>Before you can access the SAP Launchpad Service, you first need to subscribe to it as this service is not pre-configured with your trial account.</p>
-<p><em>Note,</em> that the SAP Launchpad service offers two types of standard plans. The&nbsp;<strong>Applications Plan</strong> which is used to access your applications from the launchpad. In this case, you need to create a subscription to the SAP Launchpad service, which you will do with the following steps. The 2nd plan is the <strong>Service Plan</strong>&nbsp;which is used to integrate with other services. This plan is not required for the scope of this tutorial.</p>
-<ol>
-<li>
-<p>In your trial subaccount click <strong>Service Marketplace</strong> in the left navigation panel under <strong>Services</strong>.</p>
-<p>The Service Marketplace provides you access to all services and applications that you can access from the SAP BTP cockpit.</p>
-<p><img src="/images/Service_marketplace.png" width="826" height="233" /></p>
-</li>
-<li>
-<p>Enter&nbsp;<code>launchpad</code> in the search box and click on the <strong>Launchpad Service</strong>&nbsp;tile.</p>
-<p><img src="/images/Find_launchpad.png" width="823" height="233" /></p>
+**Setup SAP Launchpad Service in your trial account**
+
+To create a Central Point of Entry for your users, you need the SAP Launchpad Service
+
+**Subscribe to the SAP Launchpad Service**
+
+Before you can access the SAP Launchpad Service, you first need to subscribe to it as this service is not pre-configured with your trial account.
+that the SAP Launchpad service offers two types of standard plans. The **Applications Plan** which is used to access your applications from the launchpad. In this case, you need to create a subscription to the SAP Launchpad service, which you will do with the following steps. The 2nd plan is the **Service Plan** which is used to integrate with other services. This plan is not required for the scope of this tutorial.
+
+In your trial subaccount click **Service Marketplace** in the left navigation panel under **Services**
+The Service Marketplace provides you access to all services and applications that you can access from the SAP BTP cockpit.
+
+![](/images/Service_marketplace.png)
+        
+
+Enter <code>launchpad</code> in the search box and click on the **Launchpad Service**
+
+
+![](/images/Find_launchpad.png)
 <p>If you clicked on the Launchpad Service Tile the Launchpad Service page opens with 3 tabs that include information about the service (overview) as well as the two different plans (Service and Application Plans).</p>
 </li>
 <li>
