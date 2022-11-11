@@ -6,7 +6,7 @@
 
 Enter Trial Account
 
-![](/images/Enter_trial_account.png)
+![](../images/Enter_trial_account.png)
 
 
 2. Now create a subaccount that lives in a geographic region. <strong>Choose any region</strong>&nbsp;from this list and click **Create Account** to trigger the provisioning process.<br /><br /><img src="/images/Create_Account.png" width="400" height="400" /><br /><br /></p>
