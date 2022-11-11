@@ -12,6 +12,6 @@
 <li>Click on "Launchpad Service". This will open the launchpad site directory.<br /><br />If you get the error message "Access Denied". Your user has not been assigned the role collection "Launchpad_Admin". See card "Add yourself to the Launchpad Admin role".<br />Goto "Role Collections", click on "<strong>Launchpad_Admin</strong>" and assign the email address of your user</li>
 </ol>
 <p>&nbsp;</p>
-<p><img src="/exercises/images/steps.png" width="1097" height="357" /><br /><strong>Additional Checks</strong><br /><br />Cloud Foundry - "Org Members" (#2 on the figure):<br />It will list all users you have added as administrators with the "Org Manager" role. Users you have added as developers have no Organization Role.</p>
+<p><img src="/images/steps.png" width="1097" height="357" /><br /><strong>Additional Checks</strong><br /><br />Cloud Foundry - "Org Members" (#2 on the figure):<br />It will list all users you have added as administrators with the "Org Manager" role. Users you have added as developers have no Organization Role.</p>
 <p>Security - "Users" (#3 on the figure):<br />You should see all users assigned to the subaccount. A click on the arrow adds details, including their role collections.</p>
 <p>&nbsp;</p>
