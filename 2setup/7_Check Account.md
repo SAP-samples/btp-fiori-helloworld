@@ -1,7 +1,7 @@
 **Check your created Subaccount**
 
-<p>Go back to your SAP BTP Cockpit by clicking on the browser tab "Trial Home ..."</p>
-<p>In your new subaccount check the following:<br /><br /></p>
+Go back to your SAP BTP Cockpit by clicking on the browser tab "Trial Home ..."
+In your new subaccount check the following:
 
 
 1. Click **Instances and Subscriptions** under **Services**(#1 on the following figure). You should see that the following services have been subscribed:
