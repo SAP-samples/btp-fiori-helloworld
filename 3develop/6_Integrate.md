@@ -1,22 +1,28 @@
-<p "text-align: left;"><strong>Create a Launchpad Site</strong></p>
-<ol>
-<li>
-<p>Click on&nbsp;<strong>Create Site</strong>&nbsp;to create a new Launchpad site.</p>
-</li>
-<li>Enter a site name, for example, "<em><code>HelloWorldSite</code>"</em> and select <strong>Create</strong>.<br /><br />You will be forwarded to the "Site Editor" showing the Settings of the created HelloWorldSite.<br /><br /></li>
-<li>Navigate back to the Site Directory.<br /><br />You can navigate the new site with the <strong>Go to site button</strong>.<br /><br />
+**Create a Launchpad Site**
   
-<img src="/images/Go_to_site.png" width="300">
+1. Click **Create Site** to create a new Launchpad site.
+
+2. Enter a site name, for example, "**HelloWorldSite**" and select **Create**.
+
+You will be forwarded to the "Site Editor" showing the Settings of the created HelloWorldSite.
+
+3. Navigate back to the Site Directory.
   
-<br />*Note:*</em> You can see the the new site is still empty.<br /><br /></li>
-<li>Open the former browser tab "Site Directory" and navigate to <strong>Content Manager</strong> in the left navigation pane <br /><br />You can expand the pane with the button in the top left corner. Predefined is the role&nbsp;<strong>Everyone.</strong><br />
+You can navigate the new site with the **Go to site button**.
   
-<img src="/images/Expand_pane.png" width="550"> 
+![](../images/Go_to_site.png")
+  
+*Note:* You can see the the new site is still empty.
+
+4. Open the former browser tab "Site Directory" and navigate to **Content Manager** in the left navigation pane.
+
+You can expand the pane with the button in the top left corner. Predefined is the role **Everyone**.
+
+![](../images/Expand_pane.png") 
  
-<li>Create a new entity <strong>Group </strong>by clicking on <strong>+New </strong>&gt; <strong>Group </strong>enter a name (e.g. "HelloWorldGroup") and click on <strong>Save</strong>.&nbsp;<br /><br />
+5. Create a new entity **Group** by clicking on **+New > Group** enter a name (e.g. "HelloWorldGroup") and click on **Save**. 
+
+![](../images/Group.png") 
   
-<img src="/images/Group.png" width="750"> 
-  
-<br /><em>Note:&nbsp;</em>The HelloWorldSite is still empty.&nbsp;<br /><br /></li>
-</ol>
-<p>&nbsp;</p>
+*Note:* The HelloWorldSite is still empty.
+
