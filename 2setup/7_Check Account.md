@@ -11,7 +11,7 @@
 3. Click on "Launchpad Service". This will open the launchpad site directory.<br /><br />If you get the error message "Access Denied". Your user has not been assigned the role collection "Launchpad_Admin". See card "Add yourself to the Launchpad Admin role".<br />Goto "Role Collections", click on "<strong>Launchpad_Admin</strong>" and assign the email address of your user
 
   
-![](/images/steps.png)
+![](../images/steps.png)
   
 <strong>Additional Checks</strong>
   
