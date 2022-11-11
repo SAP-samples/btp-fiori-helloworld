@@ -10,7 +10,7 @@ You will be forwarded to the "Site Editor" showing the Settings of the created H
   
 You can navigate the new site with the **Go to site button**.
   
-![](../images/Go_to_site.png")
+![](../images/Go_to_site.png)
   
 *Note:* You can see the the new site is still empty.
 
@@ -18,11 +18,11 @@ You can navigate the new site with the **Go to site button**.
 
 You can expand the pane with the button in the top left corner. Predefined is the role **Everyone**.
 
-![](../images/Expand_pane.png") 
+![](../images/Expand_pane.png) 
  
 5. Create a new entity **Group** by clicking on **+New > Group** enter a name (e.g. "HelloWorldGroup") and click on **Save**. 
 
-![](../images/Group.png") 
+![](../images/Group.png) 
   
 *Note:* The HelloWorldSite is still empty.
 
