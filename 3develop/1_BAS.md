@@ -25,7 +25,6 @@
 3. Click again **Create Dev Space** in the lower right corner. 
 
  ![](../images/Create_New_Dev_Space.png)
-
 You will be forwarded to an overview of your dev space(s).
 
 It may take some time until the newly created dev space is started. Once started the status changes from "STARTING" to "RUNNING” and the dev space name (in this case "devdemo") will turn into a blue hyperlink.
