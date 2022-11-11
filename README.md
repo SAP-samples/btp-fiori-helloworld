@@ -1,6 +1,9 @@
 # Get Started on SAP BTP by Creating a "Hello World" App with SAPUI5/SAP Fiori
+<!-- Please include descriptive title -->
 
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world)](https://api.reuse.software/info/github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world)
+<!--- Register repository https://api.reuse.software/register, then add REUSE badge:
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
+-->
 
 ## Description
 <!-- Please include SEO-friendly description -->
@@ -9,7 +12,17 @@ You will create a simple custom UI application, show the usage of the HTML5 repo
 
 ## Requirements
 
+The following requirements have to be met: 
 
+An SAP BTP trial account with entitlements for:
+- SAP Business Application Studio
+- SAP Launchpad Service
+
+Go To Your Trial Account with this link: [Welcome to SAP BTP trial](https://cockpit.hanatrial.ondemand.com/trial/#/home/trial)
+
+For more information see the steps:
+[Sign up for a free trial account on SAP BTP](https://github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world/blob/main/2setup/2_Universal%20ID.md) and 
+[Create your SAP BTP Trial account](https://github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world/blob/main/2setup/3_Setup%20Trial.md)
 
 
 ## Download and Installation
