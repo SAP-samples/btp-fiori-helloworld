@@ -40,7 +40,7 @@ Click on the&nbsp;<strong>My Content</strong>&nbsp;tab on the top left and see y
   
 <li>Go back to Content Manager and click on the&nbsp;<strong>Everyone</strong>&nbsp;role (you can also create your company-specific roles) and click on the button&nbsp;<strong>Edit</strong>.<br />
   
-<img src="/images/Edit.png)   
+![](../images/Edit.png)   
   
 <li>In the&nbsp;<strong>Assignments</strong>&nbsp;section, <strong>click in the search bar</strong> and add your app with the&nbsp;<strong>+ button</strong>.<br /><br />
   
