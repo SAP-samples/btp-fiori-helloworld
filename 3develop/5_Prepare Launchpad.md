@@ -25,9 +25,9 @@
 <li>
 <p>Select the tab&nbsp;<strong>Subscriptions</strong>, and choose <strong>Launchpad Service.&nbsp;</strong>The Launchpad Site Manager opens in a new window.<strong><br /><br />
   
-<img src="/images/Open_site_directory.png" width="750">
+![](../images/Open_site_directory.png)
   
-<br /></strong>
+</strong>
 If you get the error message "Access Denied". Your user has not been assigned the role collection <strong>Launchpad_Admin</strong>. Go to <strong>Role Collections</strong>, click on <strong>Launchpad_Admin</strong> and assign the email address of your user (as described under step "Add yourself to the Launchpad Admin role").<br /><br /><br /></p>
 </li>
 </ol>
