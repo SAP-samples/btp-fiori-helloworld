@@ -1,4 +1,4 @@
-<p ="text-align: left;"><strong>Prerequisites</strong><br /><br />The following requirements have to be met:&nbsp;</p>
+**The following requirements have to be met:**
 <ul>
 <li>SAP BTP trial account with entitlements for:
 <ul>
