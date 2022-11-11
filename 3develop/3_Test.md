@@ -2,19 +2,16 @@
 
 1. Right click on your project folder "helloworldui5" and choose **Preview Application**. 
 
-<img src="/images/Preview_Application.png" width="750">
+     ![](../images/Preview_Application.png)
 
- 
 
 2. Choose npm script: **start-noflp fiori run --open "intex.html?sap-ui-xx-viewCache=false"**
 
-<img src="/images/Start_noflp.png" width="750">
-
-
+     ![](../images/Start_noflp.png)
 
 A new browser tab opens with your app:
 
-<img src="/images/App_generated_new.png" width="750">
+![](../images/App_generated_new.png)
 
 Now let us **change the title of the app** to "HelloWorld".
 
@@ -24,11 +21,11 @@ Now let us **change the title of the app** to "HelloWorld".
 
 5. Change "{i18n>title}" to "HelloWorld".
 
-<img src="/images/App_title_TechEd_new.png" width="750">
+     ![](../images/App_title_TechEd_new.png)
 
 You will see the changes in the application preview accordingly: "HelloWorld" instead of "Hello World App Title".
 
-<img src="/images/App_new.png" width="750">
+     ![](../images/App_new.png)>
  
 
  
