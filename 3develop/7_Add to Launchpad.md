@@ -1,26 +1,21 @@
-<p "text-align: left;">Finally you need to add your App to the Launchpad group and role.<br /><br /></p>
+Finally you need to add your App to the Launchpad group and role.
 <ol>
-<li>Navigate to&nbsp;<strong>Channel Manager</strong>&nbsp;on the left to check your Content Providers and to&nbsp;<strong>refresh</strong>&nbsp;the list of HTML5 Applications.&nbsp;<br /><br />
+<li>Navigate to <strong>Channel Manager</strong> on the left to check your Content Providers and to <strong>refresh</strong> the list of HTML5 Applications. 
   
-![](../images/Refresh.png)
+![](../images/Refresh.png)</li>
   
-<br /></li>
 <li>
-Click on the <strong>Content Manager</strong> and on tab <strong>Content Explorer</strong>&nbsp;tab, and select&nbsp;<strong>HTML5 Apps</strong>&nbsp;to see the list of HTML5 applications you have in your&nbsp;<strong>HTML5 Applications</strong>&nbsp;(the Managed Application Router provided by SAP Launchpad).<br /><br /> 
+Click on the <strong>Content Manager</strong> and on tab <strong>Content Explorer</strong> tab, and select <strong>HTML5 Apps</strong> to see the list of HTML5 applications you have in your <strong>HTML5 Applications</strong> (the Managed Application Router provided by SAP Launchpad).<br /><br / 
   
 ![](../images/Content_Explorer.png)
-  
-<br />
-  
+ 
 You see the ID of the deployed HTML5 apps and the view name.<br /><br /></li>
 <li>Select your HTML5 application which you see in the list and click the button&nbsp;<strong>+Add to My Content</strong>.<br /><br />
   
 ![](../images/Add_to_content.png)
 
  
-<li>
-  
-Click on the&nbsp;<strong>My Content</strong>&nbsp;tab on the top left and see your new app&nbsp;<strong>Hello World App Title</strong>&nbsp;in your content.<br /><br />
+<li>Click on the&nbsp;<strong>My Content</strong>&nbsp;tab on the top left and see your new app&nbsp;<strong>Hello World App Title</strong>&nbsp;in your content.<br /><br />
   
 ![](../images/My_Content.png)
   
