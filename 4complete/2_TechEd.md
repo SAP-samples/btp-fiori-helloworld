@@ -1,4 +1,4 @@
-
+![](../images/Hello_World_app.png)
 Browse through the <a href="https://go3.events.sap.com/sapteched/hybrid/2022/reg/flow/sap/saptech2022/sapteched2022catalog/page/catalog/session/1661198449175001XUYx" target="_blank">SAP TechEd 2022 Session Catalog</a> to join and watch additional sessions. <br>Here a few top picks as recommendation for you:
 
 #### SAP Business Technology Platform (General) Track
