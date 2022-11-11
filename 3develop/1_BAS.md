@@ -4,42 +4,42 @@
 1. Click Instances and Subscriptions under Services
 
 2. Select the tab Subscriptions, and click on SAP Business Application Studio. You will be forwarded to your SAP Business Application Studio Home Page with automatic login to the application.
-![](/exercises/images/Open_BAS.png)
+![](/images/Open_BAS.png)
 
 3. Please, accept the Privacy Statement
 
-<img src="/exercises/images/BAS_Privacy_Statment.png" width="650">
+![](/images/BAS_Privacy_Statment.png)
 
 4. Browse the SAP Business Application Studio home page.
-![](/exercises/images/Browse_BAS.png)
+![](/images/Browse_BAS.png)
 
 
 **Create a Dev Space in SAP Business Application Studio**
 
 1. Click on Create Dev Space on the SAP Business Application Studio home page (or select "My Dev Spaces" if you already have one).
-![](/exercises/images/Create_Dev_Space.png)
+![](/images/Create_Dev_Space.png)
 
 
 2. Enter a name of your choice for the space (for example, "devdemo") in the upper left corner and choose the application type SAP Fiori (Choosing SAP Fiori eases the creation of a deployable application compared to application type "Basics"). You don't have to select any additional SAP Extensions here. 
 
 3. Click again **Create Dev Space** in the lower right corner. 
 
- ![](/exercises/images/Create_New_Dev_Space.png)
+ ![](/images/Create_New_Dev_Space.png)
 
 You will be forwarded to an overview of your dev space(s).
 
 It may take some time until the newly created dev space is started. Once started the status changes from "STARTING" to "RUNNING” and the dev space name (in this case "devdemo") will turn into a blue hyperlink.
 
 4. Click on the dev space link (e.g. "devdemo") to enter the space.
- ![](/exercises/images/Start_Devspace.png)
+ ![](/images/Start_Devspace.png)
 
 After a few seconds ...
 
- ![](/exercises/images/Start_BAS.png)
+ ![](/images/Start_BAS.png)
 
 ... you will see the Welcome Page of your dev space:
 
- ![](/exercises/images/BAS_initial.png)
+ ![](/images/BAS_initial.png)
 
 **Connect your SAP Business Application Studio with your Cloud Foundry Environment**
 
@@ -50,7 +50,7 @@ A connection of your SAP Business Application Studio to your Cloud Foundry subac
 1. Switch to the SAP BTP cockpit and click on Overview of your subaccount (top left).
 2. Check the **API Endpoint** and **Org Name** and your **Space**.
 
- ![](/exercises/images/API_Endpoint.png)
+ ![](/images/API_Endpoint.png)
  
 
 **Keep this information in mind** for the next steps (this is especially important if you want to use multiple subaccounts for your SAP Business Application Studio).
@@ -61,25 +61,25 @@ A connection of your SAP Business Application Studio to your Cloud Foundry subac
 
 1. Switch to the tab where you have opened SAP Business Application Studio. In the tabs, click on View in the menu and select Command Palette ... .
 
- ![](/exercises/images/Command_Palette.png)
+ ![](/images/Command_Palette.png)
 
 2. Search or Select CF: Login to Cloud Foundry.
 
- ![](/exercises/images/Login_CF.png)
+ ![](/images/Login_CF.png)
  
 3. Ensure that the right cloud foundry API endpoint is entered (attention: when you copy&paste the API endpoint from the cockpit, make sure to remove spaces at the beginning or end of the URL).
 
 4. Enter your SAP BTP account Email and Password when prompted. 
 
- ![](/exercises/images/Enter_email.png)
+ ![](/images/Enter_email.png)
 
 5. Select your Cloud Foundry Org (predefined).
 
 6. Select the Space name (predefined).
 
- ![](/exercises/images/CF_Target.png)
+ ![](/images/CF_Target.png)
 
- ![](/exercises/images/Logged_in.png)
+ ![](/images/Logged_in.png)
 
 **Now we have successfully created a connection between your SAP Business Application dev space and your SAP BTP Cloud Foundry space.**
  
