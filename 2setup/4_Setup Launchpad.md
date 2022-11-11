@@ -25,20 +25,24 @@ If you clicked on the Launchpad Service Tile the Launchpad Service page opens wi
 ![](../images/Create_subscription.png)
 
 
+4. In the **New Instance or Subscription** dialog box that opens, leave the basic information that appears there and click **Create** 
 
-<li>
-<p>In the&nbsp;<strong>New Instance or Subscription</strong>&nbsp;dialog box that opens, leave the basic information that appears there and click&nbsp;<strong>Create</strong>.</p>
-<p><img src="../images/Create.png" alt="Create" width="805" height="355" /></p>
-</li>
-<li>
-<p>You'll get the confirmation that your subscription is being created. Click <strong>View Subscription</strong>.</p>
-<p><img src="/images/View_subscription.png" alt="View subscription" width="801" height="238" /></p>
-<p>You are redirected to the <strong>Services</strong>&nbsp;-&gt;&nbsp;<strong>Instances and Subscriptions</strong>&nbsp;screen. This screen provides you with an overview of all services and applications that are currently active.</p>
-</li>
-<li>
-<p>From the&nbsp;<strong>Instances and Subscriptions</strong>&nbsp;screen, under the&nbsp;<strong>Subscriptions</strong> tab or on the right under the service name, you'll see that you are subscribed to the <strong>Launchpad Service </strong>now. The <strong>SAP Business Application Studio Service</strong> is automatically subscribed with the creation of the trial account.</p>
-<p><img src="/images/Subscribed.png" alt="Subscribed" width="792" height="285" /></p>
-</li>
-</ol>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+![](../images/Create.png)
+
+
+5. You'll get the confirmation that your subscription is being created. Click <strong>View Subscription</strong>.</p>
+
+
+![](..images/View_subscription.png)
+
+
+You are redirected to the <strong>Services</strong>&nbsp;-&gt;&nbsp;<strong>Instances and Subscriptions</strong>&nbsp;screen. This screen provides you with an overview of all services and applications that are currently active.
+
+
+6. From the&nbsp;<strong>Instances and Subscriptions</strong>&nbsp;screen, under the&nbsp;<strong>Subscriptions</strong> tab or on the right under the service name, you'll see that you are subscribed to the <strong>Launchpad Service </strong>now. The <strong>SAP Business Application Studio Service</strong> is automatically subscribed with the creation of the trial account.</p>
+
+
+![](../images/Subscribed.png)
+
+
+
