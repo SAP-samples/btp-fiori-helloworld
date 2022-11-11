@@ -13,6 +13,7 @@ Note that the &ldquo;Launchpad_Admin&rdquo; role was automatically created with 
 
 ![](../images/Search_launchpad_admin.png)
 
+
 5. Click in the row with the <code>Launchpad_Admin</code> role collection (or on the arrow at the far right of the row).
 
 ![](../images/Open_role_collection.png)
@@ -34,6 +35,7 @@ Keep the the default identity provider. Then click <strong>Save</strong>.
 
 You've now been assigned to the <code>Launchpad_Admin</code> role collection and you can access the SAP Launchpad service and carry out all your admin tasks. 
 Note: It may take a few minutes for the admin role assignment to take effect. Until it does, you may get an Access Denied error when you open the launchpad application (how to open the launchpad application will be described in the next step).
+
 
 
 
