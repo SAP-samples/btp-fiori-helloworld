@@ -31,13 +31,13 @@ Expand the project folder <strong>mta_archives</strong>and right-click on the bu
 Your trail subaccount will be selected automatically as destination.<br /><br />
 5. After the deployment is triggered, you can see the progress of the deployment in the terminal under <strong>Task: Deploy MTA Archive</strong>. <br />It takes a while to complete the task. You will see a success message in the console once it's done. <br />If not, check the previous steps again.<br /><br />
   
-     ![](../images/Terminal.png)
+![](../images/Terminal.png)
   
-6. Switch to your <strong>subaccount </strong>in the SAP BTP Cockpit<strong>. <br /></strong>Select<strong> HTML5 Application </strong>on the left navigation pane. You will see the deployed application in the repository.<br /><br />
-<img src="/images/HTML5_app.png" width="750">
-  
+6. Switch to your <strong>subaccount </strong>in the SAP BTP Cockpit<strong>. <br /></strong>Select<strong> HTML5 Application </strong>on the left navigation pane. You will see the deployed application in the repository.
 
+![](../images/HTML5_app.png)
+  
 Click on the application name "<strong>saphelloworldui5</strong>". Your deployed app will open in a new window.
 
-     ![](../images/App_new.png)
+![](../images/App_new.png)
 
