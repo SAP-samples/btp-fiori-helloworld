@@ -17,5 +17,6 @@ This mission includes the following steps:
     ![](../images/Hello_World_app.png)
 
 
-
-
+    ![text][logo]
+    
+    [logo]: https://github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world/blob/main/images/Hello_World_app.png
