@@ -16,3 +16,6 @@ This mission includes the following steps:
 
 ![](../images/Hello_World_app.png)
 
+<img src="../images/Hello_World_app.png" width="600">
+
+
