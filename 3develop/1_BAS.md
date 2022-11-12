@@ -4,20 +4,23 @@
 1. Click Instances and Subscriptions under Services
 
 2. Select the tab Subscriptions, and click on SAP Business Application Studio. You will be forwarded to your SAP Business Application Studio Home Page with automatic login to the application.
-![](../images/Open_BAS.png)
+
+   ![](../images/Open_BAS.png)
 
 3. Please, accept the Privacy Statement
 
-![](../images/BAS_Privacy_Statment.png)
+   ![](../images/BAS_Privacy_Statment.png)
 
 4. Browse the SAP Business Application Studio home page.
-![](/images/Browse_BAS.png)
+
+   ![](/images/Browse_BAS.png)
 
 
 **Create a Dev Space in SAP Business Application Studio**
 
 1. Click on Create Dev Space on the SAP Business Application Studio home page (or select "My Dev Spaces" if you already have one).
-![](../images/Create_Dev_Space.png)
+
+   ![](../images/Create_Dev_Space.png)
 
 
 2. Enter a name of your choice for the space (for example, "devdemo") in the upper left corner and choose the application type SAP Fiori (Choosing SAP Fiori eases the creation of a deployable application compared to application type "Basics"). You don't have to select any additional SAP Extensions here. 
