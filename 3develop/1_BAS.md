@@ -25,23 +25,28 @@
 
 2. Enter a name of your choice for the space (for example, "devdemo") in the upper left corner and choose the application type SAP Fiori (Choosing SAP Fiori eases the creation of a deployable application compared to application type "Basics"). You don't have to select any additional SAP Extensions here. 
 
+
 3. Click again **Create Dev Space** in the lower right corner. 
 
- ![](../images/Create_New_Dev_Space.png)
-You will be forwarded to an overview of your dev space(s).
+   ![](../images/Create_New_Dev_Space.png)
+   
+   You will be forwarded to an overview of your dev space(s).
 
-It may take some time until the newly created dev space is started. Once started the status changes from "STARTING" to "RUNNING” and the dev space name (in this case "devdemo") will turn into a blue hyperlink.
+   It may take some time until the newly created dev space is started. Once started the status changes from "STARTING" to "RUNNING” and the dev space name (in this case "devdemo") will turn into a blue hyperlink.
+   
 
 4. Click on the dev space link (e.g. "devdemo") to enter the space.
- ![](../images/Start_Devspace.png)
 
-After a few seconds ...
+   ![](../images/Start_Devspace.png)
 
- ![](../images/Start_BAS.png)
+   After a few seconds ...
 
-... you will see the Welcome Page of your dev space:
+   ![](../images/Start_BAS.png)
 
- ![](../images/BAS_initial.png)
+   ... you will see the Welcome Page of your dev space:
+
+   ![](../images/BAS_initial.png)
+
 
 **Connect your SAP Business Application Studio with your Cloud Foundry Environment**
 
@@ -63,25 +68,26 @@ A connection of your SAP Business Application Studio to your Cloud Foundry subac
 
 1. Switch to the tab where you have opened SAP Business Application Studio. In the tabs, click on View in the menu and select Command Palette ... .
 
- ![](../images/Command_Palette.png)
+   ![](../images/Command_Palette.png)
 
 2. Search or Select CF: Login to Cloud Foundry.
 
- ![](../images/Login_CF.png)
+   ![](../images/Login_CF.png)
  
 3. Ensure that the right cloud foundry API endpoint is entered (attention: when you copy&paste the API endpoint from the cockpit, make sure to remove spaces at the beginning or end of the URL).
 
 4. Enter your SAP BTP account Email and Password when prompted. 
 
- ![](../images/Enter_email.png)
+   ![](../images/Enter_email.png)
 
 5. Select your Cloud Foundry Org (predefined).
 
 6. Select the Space name (predefined).
 
- ![](../images/CF_Target.png)
+   ![](../images/CF_Target.png)
 
- ![](../images/Logged_in.png)
+   ![](../images/Logged_in.png)
+
 
 **Now we have successfully created a connection between your SAP Business Application dev space and your SAP BTP Cloud Foundry space.**
  
