@@ -20,7 +20,7 @@ You see the ID of the deployed HTML5 apps and the view name.
   
      ![](../images/My_Content.png)
   
-*Note:* You can see the Semantic Object we defined in SAP Business Application Studio <strong>helloworld</strong> and the Action <strong>show</strong> in the app details <strong>Navigation</strong>. This is needed for the Launchpad integration.
+    *Note:* You can see the Semantic Object we defined in SAP Business Application Studio <strong>helloworld</strong> and the Action <strong>show</strong> in the app details <strong>Navigation</strong>. This is needed for the Launchpad integration.
 
 5. Enter the group <strong>HelloWorldGroup</strong> you just created, click on <strong>Edit.</strong>
   
@@ -46,9 +46,9 @@ You see the ID of the deployed HTML5 apps and the view name.
 12. Don't forget to <strong>Save</strong>.
 13. Go to the <strong>Site Directory</strong> in the left navigation pane. Open your "HelloWorldSite".
 
-Start by clinking on it. You will see your newly created app in the Launchpad.
+    Start by clinking on it. You will see your newly created app in the Launchpad.
   
-![](../images/Hello_World_app.png) 
+    ![](../images/Hello_World_app.png) 
   
 
 **Well done! You have successfully created a Launchpad site, giving necessary roles and groups, and added your HTML5 application to the Launchpad site**
