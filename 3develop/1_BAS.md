@@ -45,7 +45,7 @@
 
    ... you will see the Welcome Page of your dev space:
 
-   ![](../images/BAS_initial.png | width=700)
+   ![](../images/BAS_initial.png)
 
 
 **Connect your SAP Business Application Studio with your Cloud Foundry Environment**
