@@ -1,3 +1,4 @@
+# Add your HelloWorld Application to Launchpad Group and Role
 
 Finally you need to add your App to the Launchpad group and role.
 
