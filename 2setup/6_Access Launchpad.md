@@ -1,4 +1,4 @@
-<strong>Access the SAP Launchpad service</strong>
+<h1>Access the SAP Launchpad service</h1>
 <p>You are now ready to access the SAP Launchpad service as admin / site manager of the launchpad.
 
 
