@@ -1,4 +1,4 @@
-**Now you can test and preview the UI application in SAP Business Application Studio**
+# Now you can test and preview the UI application in SAP Business Application Studio
 
 1. Right click on your project folder "helloworldui5" and choose **Preview Application**. 
 
