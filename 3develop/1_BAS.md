@@ -1,5 +1,5 @@
 
-**Open SAP Business Application Studio**
+# Open SAP Business Application Studio
 
 1. Click Instances and Subscriptions under Services
 
