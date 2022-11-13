@@ -1,3 +1,5 @@
+# Integrate your HelloWorld app into the Launchpad
+
 **Create a Launchpad Site**
   
 1. Click **Create Site** to create a new Launchpad site.
