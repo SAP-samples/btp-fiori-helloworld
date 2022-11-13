@@ -1,4 +1,4 @@
-**Sign up for a free trial account on SAP BTP**
+# Sign up for a free trial account on SAP BTP
 You will learn
 
 - How to register on the SAP website</li>
