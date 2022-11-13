@@ -1,4 +1,4 @@
-**Check your created Subaccount**
+# Check your created Subaccount
 
 Go back to your SAP BTP Cockpit by clicking on the browser tab "Trial Home ..."
 In your new subaccount check the following:
