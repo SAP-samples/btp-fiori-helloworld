@@ -1,4 +1,4 @@
-**Setup SAP Launchpad Service in your trial account**
+# Setup SAP Launchpad Service in your trial account
 
 To create a Central Point of Entry for your users, you need the SAP Launchpad Service
 
