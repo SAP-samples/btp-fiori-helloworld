@@ -1,4 +1,4 @@
-**Build and deploy your HelloWorld the cloud application which you just created**
+# Build and deploy your HelloWorld the cloud application which you just created
 1. Go back to your browser window or tab "SAP Business Application Studio" and in case open again the **Explorer** (the pages icon on the top left)&nbsp;
   
      ![](../images/Explorer.png)
