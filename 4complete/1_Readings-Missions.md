@@ -1,4 +1,4 @@
-#### Further Recommended SAP Discovery Center Missions
+# Further Recommended SAP Discovery Center Missions
 
 * An SAP Fiori mission with a broader scope, including SAP S/4HANA backend, connectivity, data binding, and security:<br>
 [Enhance core ERP business processes with resilient applications on SAP BTP](https://discovery-center.cloud.sap/missiondetail/3501/3542/)
