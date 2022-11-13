@@ -1,4 +1,5 @@
-**The following requirements have to be met:**
+# Check prerequisites
+The following requirements have to be met:
 <ul>
 <li>SAP BTP trial account with entitlements for:
 <ul>
