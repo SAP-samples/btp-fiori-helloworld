@@ -2,22 +2,29 @@
 
 You can inspect, which entities the booster created:
 
-1. Click "Services" in the left navigation pane and choose "Instances and Subscriptions" (#1 on the figure below). 
-You should see that the following services have been subscribed:
+1. Enter your subaccount in your BTP cockpit:
 
+![](images/booster_5_enter_subacc.png)
+
+2. Click "Services" in the left navigation pane and choose "Instances and Subscriptions" (#1 on the figure below). 
+You should see that the following services have been subscribed:
 
     * SAP Business Application Studio
     * Launchpad Service
     * Continuous Integration & Delivery Service (optional)
 
+![](images/booster_5_inspect_sub.png)
+
 
 2. Click on "SAP Business Application Studio" (#5 on the figure). This will open the BAS.
 
 
-
 3. Click on "Launchpad Service". This will open the launchpad site.
-If you get the error message "Access Denied". Your user has not been assigned the role collection "Launchpad_Admin".
+
+    If you get the error message **"Access Denied"**. Your user has not been assigned the role collection "Launchpad_Admin".
 Goto "Role Collections", click on "Launchpad_Admin" and assign the email address of your user
+
+
 
 
 **Additional checks**
