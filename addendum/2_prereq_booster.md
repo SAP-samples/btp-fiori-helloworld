@@ -33,14 +33,24 @@ For running this HTML5 mission you need the Booster **"Prepare an Account for HT
 7. You will see the start screen of the booster. Select the **"Components"** tab in the booster and notice the required services and subscriptions. 
 8. Press **"Start"**. It will start the first step of the booster, which just checks the prerequisites.
 
+   *Option 1 - Booster will fail*
    In case the booster step will fail, the booster execution will stop.
-   In this example, we have an enterprise subscription account, with 4 missiing **entitlements**. 
-   Press **"Cancel"** to fix it.
+   In this example, we have an enterprise subscription account, with 4 missing **entitlements**. 
+   (Note: Continuous Integration & Delivery service is optional)
+      
+   ![](images/booster_2_Step_1_failed.PNG)
    
-![](images/booster_2_Step_1_failed.PNG)
+   Click on the red **"Failed"** button to see the root cause.
+   Press **"Cancel"** or the provided link to **"Service Assignements"**
+   
+   Navigate in your global account in the left navigation pane to **"Service Assigements"**. 
+   Check, that you have all required entitlements for 
+   * Cloud Foundry Runtime (including **free "Quota"**, means not already assigned to any subaccount)
+   * Business Application Studio
+   * Launchpad Service and
+   * Optional: Continuous Integration & Delivery
+   * Free: HTML5 Application Repository Service
 
-
-
-
+*Option 2 - Booster passes*
 
 9. Before proceeding to step 2, configuring the booster, please check in [SAP Discovery Center](https://discovery-center.cloud.sap/viewServices?showFilters=true&provider=all&regions=all) for which regions and infrastructures the required services are available and which one you like to choose.
