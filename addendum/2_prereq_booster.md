@@ -32,10 +32,14 @@ For running this HTML5 mission you need the Booster **"Prepare an Account for HT
 
 7. You will see the start screen of the booster. Select the **"Components"** tab in the booster and notice the required services and subscriptions. 
 8. Press **"Start"**. It will start the first step of the booster, which just checks the prerequisites.
+
    In case the booster step will fail, the booster execution will stop.
-   In this example, we have an enterprise subscription account, with 4 missiing **entitlements**. Lets fix it.
+   In this example, we have an enterprise subscription account, with 4 missiing **entitlements**. 
+   Press **"Cancel"** to fix it.
    
-9. 
+![](images/booster_2_Step_1_failed.PNG)
+
+
 
 
 
