@@ -52,7 +52,8 @@ In this step, we can add additional users as administrators and developers for t
     * Add developers
     * Press Next.
 
-    ![](images/booster_step3.png)
+
+![](images/booster_step3.png)
 
 
 **`Step 4 - "Review" `**
@@ -60,13 +61,13 @@ In this step, we can add additional users as administrators and developers for t
 You are nearly done. Review your configurations, if everything is correct press **"Finish"**.
 The booster will start. Watch the progress screen, until it turns green for all setup steps.
 
-    ![](images/booster_step_4_progress.png)
+![](images/booster_step_4_progress.png)
 
 When the Booster has executed successfully you will get a success window.
 you can use the provided links to open your new subaccount and Business Application Studio.
 
 
-    ![](images/booster_step_4_success.png)
+![](images/booster_step_4_success.png)
 
 
 
