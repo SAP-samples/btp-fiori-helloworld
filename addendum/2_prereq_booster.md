@@ -52,12 +52,18 @@ For running this HTML5 mission you need the Booster **"Prepare an Account for HT
    * Cloud Foundry Runtime (including **free "Quota"**, means not already assigned to any subaccount)
    * Business Application Studio
    * Launchpad Service and
-   * Optional: Continuous Integration & Delivery
+   * Optional: Continuous Integration & Delivery Application
    * Free: HTML5 Application Repository Service (which you will use later in the mission)
 
 
     *Option 2 - Booster passes*
     
+    If all prerequisites are fullfilled, you will get a success message
     
+    ![](images/Booster_4_success.PNG)
+    
+    In case, you do not have the Continuous Integration & Delivery Application, you will get a warning, which you can ignore. It is optional for this misison.
+    
+    ![](images/Booster_4_warning.PNG)
 
-9. Before proceeding to step 2, configuring the booster, please check in [SAP Discovery Center](https://discovery-center.cloud.sap/viewServices?showFilters=true&provider=all&regions=all) for which regions and infrastructures the required services are available and which one you like to choose.
+9. Before proceeding to step 2, configuring the booster, please check in [SAP Discovery Center](https://discovery-center.cloud.sap/viewServices?showFilters=true&provider=all&regions=all) for which regions and infrastructure providers the required services are available and which region and provider you like to choose.
