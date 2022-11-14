@@ -17,43 +17,34 @@ As shown in the previous step:
 
 **Execute Booster**
 
-**Step 1 - "Check Prerequisites"**
+**`Step 1 - "Check Prerequisites"`**
 
 As shown in the previous card, the Booster checks if you have all the entitlements and free quota that are needed to run the booster. 
 If the step "Check Prerequisites" passes. Press "Next".
 
 
-**Step 2 - "Set Up Subaccount"**
+**`Step 2 - "Set Up Subaccount"`**
 
-In this step, you provide all information to set up your subaccount in the right region (e.g. "Frankfurt") and service provider, with the right names. You will have to decide upon the same entities also in the manual setup.
+1. In this step, you create the following entries to set up your subaccount. You will select:
+    * Assign a Quota for your Cloud Foundry Runtime (At least 1 unit of your service plan).
+    * Subaccount name (of your choice or keep the default)
+    * Preferred Infrastructure Provider 
+    * Region (e.g. "Frankfurt") 
+    * Subdomain name (of your choice or keep the default)
+    * Cloud Foundry Organisation name (of your choice or keep the default)
+    * Space name (e.g. "dev", from the typical setup with "dev", "test" and "prod")
+
+    <sub>Note: If you do not have set an entitlement for the Continuous Integration & Delivery service it will not appear in the list. 
+you can delete it if you don't want to use it. It is optional for this mission.</sub>
 
 
-Create the following entries:
+![](images/booster_step2_1.png)
 
-Assign a Quota for your Cloud Foundry Runtime.
-
-Note: If you do not have set an entitlement for the Continuous Integration & Delivery service it will not appear in the list. 
-you can delete it if you don't want to use it. It is optional for this mission.
-
-Set your subaccount name 
-
-Select your preferred cloud infrastructure provider 
-
-Select the region for this subaccount (important for the response time)
-
-Set the subaccount ID  (you can keep the default)
-
-Set the subaccount org name  (change it to a meaningful name)
-
-Set a space name
-typically DEV, TEST or PROD as a minimum. In general, it is recommended to have one space per project. You can later add further spaces for additional projects manually.
-(see also best the practices guide Account Models with Subaccounts)
-
-Press "Next"
+2. Press **"Next"**
 
 
 
-**Step 3 - "Add users"**
+**`Step 3 - "Add users"`**
 
 In this step, we can add additional users as administrators and developers for the subaccount. The user who is using the Booster is added automatically as Administrator and also added as a Security Admin.
 
@@ -61,9 +52,10 @@ Add administrators
 Add developers
 Press Next.
 
+![](images/booster_step3.png)
 
 
-**Step 4 - "Review" **
+**`Step 4 - "Review" `**
 
 You are nearly done. Review your configuration, if everything is correct press finish.
 
