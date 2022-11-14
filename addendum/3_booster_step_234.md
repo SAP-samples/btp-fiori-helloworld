@@ -48,26 +48,25 @@ you can delete it if you don't want to use it. It is optional for this mission.<
 
 In this step, we can add additional users as administrators and developers for the subaccount. The user who is using the Booster is added automatically as Administrator and also added as a Security Admin.
 
-Add administrators
-Add developers
-Press Next.
+    * Add administrators
+    * Add developers
+    * Press Next.
 
-![](images/booster_step3.png)
+    ![](images/booster_step3.png)
 
 
 **`Step 4 - "Review" `**
 
-You are nearly done. Review your configuration, if everything is correct press finish.
+You are nearly done. Review your configurations, if everything is correct press **"Finish"**.
+The booster will start. Watch the progress screen, until it turns green for all setup steps.
 
-
-Watch the progress screen, until it turns green for all setup steps.
-
+    ![](images/booster_step_4_progress.png)
 
 When the Booster has executed successfully you will get a success window.
 you can use the provided links to open your new subaccount and Business Application Studio.
 
 
-
+    ![](images/booster_step_4_success.png)
 
 
 
