@@ -1,7 +1,9 @@
-**Note:**
+<sub>**Note:**
 This step is only necessary for an Enterprise Account (e.g. pay-as-you-go Account with free-tier service plans)
-SAP BTP Trial comes with preconfigured HTML5 application development.
+SAP BTP Trial comes with preconfigured HTML5 application development.</sub>
 
+
+### Run the Prequisites Check of the Booster "Prepare an account for HTML5 application development"
  
 
 **Introduction**
@@ -10,7 +12,7 @@ An SAP BTP Booster is a wizard-based UI, which automates the administration step
 For running this HTML5 mission you need the Booster **"Prepare an Account for HTML5 development"**.
 
 
-**Prerequisites Steps**
+**Run the Booster - Step 1 - Prerequisites Check**
 
 1. Open your SAP BTP Cockpit of your Global Account.
 2. Make sure you have the Global Account Administrator role for your Global Account.
