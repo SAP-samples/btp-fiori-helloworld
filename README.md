@@ -7,17 +7,17 @@ The goal of this mission is to create a simple Hello World application using SAP
 
 This mission includes the following steps:
 
-* Setup of **SAP BTP** account and subaccount - to give you access the to the SAP BTP Cockpit administration interface. 
+* Setup your **SAP BTP account and subaccount** - to give you access the to the SAP BTP Cockpit administration interface. 
 
-* Setup of **SAP Launchpad Service** - to give you access to create and configure the central point of entry for your users.
+* Setup your **SAP Launchpad Service** - to give you access to create and configure the central point of entry for your users.
 
-* Setup of **SAP Business Application Studio** - to give you access to the development environment. See section Setup your BTP Trial Account.
+* Setup your **SAP Business Application Studio** - to give you access to the development environment. See section Setup your BTP Trial Account.
 
 * Create a **"Hello World" app** - using Cloud Foundry Runtime, UI5/Fiori, Business Application Studio (BAS).
 
-* Deploy your Hello World app to the BTP HTML5 repository.
+* Deploy your Hello World app to the BTP **HTML5 repository**.
 
-* Add your App to a BTP Launchpad site.
+* Add your App to a BTP **Launchpad Site**.
  
 
 
