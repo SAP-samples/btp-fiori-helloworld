@@ -2,14 +2,11 @@
 
 </br>
 
-* An SAP Fiori mission with a broader scope, including SAP S/4HANA backend, connectivity, data binding, and security:
-<br>
+SAP Fiori missions with a broader scope, including SAP S/4HANA backend, connectivity, data binding, and security:
 
+* [Setup for SAP S/4HANA Side-by-Side UI Extensions on SAP BTP](https://discovery-center.cloud.sap/missiondetail/3239/3325/)
 
-* Missions to extend S/4HANA by UI Extensions:</br>
-[Setup for SAP S/4HANA Side-by-Side UI Extensions on SAP BTP](https://discovery-center.cloud.sap/missiondetail/3239/3325/)
-<br>
-[Enhance core ERP business processes with resilient applications on SAP BTP](https://discovery-center.cloud.sap/missiondetail/3501/3542/)
+* [Enhance core ERP business processes with resilient applications on SAP BTP](https://discovery-center.cloud.sap/missiondetail/3501/3542/)
 
 
 #### Helpful Documents
