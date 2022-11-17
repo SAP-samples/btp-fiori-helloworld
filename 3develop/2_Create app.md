@@ -8,17 +8,17 @@ Alternative: Open the menu in the top left corner and go to <strong>View > Comma
 
 2. In the New Project Wizard select **SAP Fiori Application**.</li><br />
 
-Click <strong>Start</strong>.
+   Click <strong>Start</strong>.
 
      ![](../images/Template_Fiori_app.png)
 
 
 3. In the <strong>Floorplan Selection</strong> choose the following:</li>
 
-For the field <strong>Application Type</strong> choose <strong>SAPUI5 freestyle</strong> from the drop-down.
-Select <strong>SAPUI5 Application</strong> as floorplan.
+   For the field <strong>Application Type</strong> choose <strong>SAPUI5 freestyle</strong> from the drop-down.
+   Select <strong>SAPUI5 Application</strong> as floorplan.
 
-Choose <strong>Next</strong>.
+   Choose <strong>Next</strong>.
 
      ![](../images/Template_UI5.png)
 
@@ -32,44 +32,44 @@ Choose <strong>Next</strong>.
 
 6. Under <strong>Entity Selection</strong> name your SAPUI5 view. This name will appear in the launchpad service for the app. We keep <code>"View1"</code> for now</li><br />
 
-Choose <strong>Next</strong>
+   Choose <strong>Next</strong>
 
      ![](../images/View1.png")
 
 7. In the next step, <strong>Project Attributes</strong> choose names and a description for your "Hello World" app (examples see figure):</li><br />
 
-Module name <code>helloworldui5 </code><br>
-Application title <code>Hello World App Title </code><br>
-Application namespace <code>sap.btp </code><br>
-Description: <code>A Fiori Hello World application  </code><br>
+   Module name <code>helloworldui5 </code><br>
+   Application title <code>Hello World App Title </code><br>
+   Application namespace <code>sap.btp </code><br>
+   Description: <code>A Fiori Hello World application  </code><br>
 
-<strong>Project folder path</strong> and <strong>Minimum SAPUI5 version</strong> should not be changed
+   <strong>Project folder path</strong> and <strong>Minimum SAPUI5 version</strong> should not be changed
 
-Add deployment configuration to MTA project <code>Yes </code><br>
-Add FLP configuration <code>Yes</code><br>
-Configure advanced options <code>No</code><br>
+   Add deployment configuration to MTA project <code>Yes </code><br>
+   Add FLP configuration <code>Yes</code><br>
+   Configure advanced options <code>No</code><br>
 
-Choose <strong>Next</strong>.
+   Choose <strong>Next</strong>.
 
      ![](../images/Template_Project_Attributes.png)
 
 8. In the next step, <strong>Deployment Configuration</strong> choose <strong>Cloud Foundry</strong> as a target.</li><br />
 
-Choose <code>None</code> for Destination name.
+   Choose <code>None</code> for Destination name.
 
-Choose <strong>Add application to managed application router?</strong> <code>Yes</code>.
-This is the standard html5 repository from launchpad service and eases deployment.
+   Choose <strong>Add application to managed application router?</strong> <code>Yes</code>.
+   This is the standard html5 repository from launchpad service and eases deployment.
 
-Choose <strong>Next</strong>
+   Choose <strong>Next</strong>
 
      ![](../images/Deployment_Config.png)
 
 9. The launchpad service needs some Fiori Launchpad Configuration data about the app. Choose names for the entries Semantic Object, Action, and Title (examples see figure)</li><br />
-(Optional: For more information about these data and features, see Intent-Based Navigation in a Nutshell).<br /><br />
+   (Optional: For more information about these data and features, see Intent-Based Navigation in a Nutshell).<br /><br />
 
-Semantic Object: <code>helloworld </code><br>
-Action: <code>show </code><br>
-Title: <code>showhelloworld </code> <br>
+   Semantic Object: <code>helloworld </code><br>
+   Action: <code>show </code><br>
+   Title: <code>showhelloworld </code> <br>
 
      ![](../images/Fiori_Launchpad_config.png)
 
