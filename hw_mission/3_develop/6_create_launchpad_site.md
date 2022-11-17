@@ -1,4 +1,4 @@
-## Integrate your HelloWorld app into the Launchpad
+## Create a Launchpad Site
 
 **Create a Launchpad Site**
   
