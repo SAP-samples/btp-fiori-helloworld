@@ -1,5 +1,5 @@
 
-# Create your SAP BTP Trial account
+## Create your SAP BTP Trial Account
 
 
 1. **Go To Your Trial Account** using this link: [Welcome to SAP BTP trial](https://cockpit.hanatrial.ondemand.com/).
