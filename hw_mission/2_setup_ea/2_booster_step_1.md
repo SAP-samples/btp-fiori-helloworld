@@ -68,4 +68,4 @@ For running this HTML5 mission you need the Booster **"Prepare an Account for HT
     
     ![](images/Booster_4_warning.PNG)
 
-9. Before proceeding to step 2, configuring the booster, please check in [SAP Discovery Center](https://discovery-center.cloud.sap/viewServices?showFilters=true&provider=all&regions=all) for which regions and infrastructure providers the required services are available and which region and provider you like to choose.
+9. **Important**: Before proceeding to step 2, configuring the booster, please check in [SAP Discovery Center](https://discovery-center.cloud.sap/viewServices?showFilters=true&provider=all&regions=all) for which regions and infrastructure providers the required services are available and which region and provider you like to choose. If you choose a region or provider, which does not offer the required service, the booster will skip the service.
