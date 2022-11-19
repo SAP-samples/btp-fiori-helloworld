@@ -83,13 +83,20 @@ Configure advanced options <code>No</code><br>
 
      ![](images/Workspace.png)
 
-12. After your App is generated, you should see this page and in the Explorer a new folder "helloworldui5" under HOME.</li><br />
+12. After your App is generated, you should see the **Application Information** page and in the Explorer and a new folder "helloworldui5" under HOME. 
+ 
+    Note: If you dont see this Application Information page, the application creation failed. 
+    Delete the folder "helloworldui5" permanently (right click on the folder and choose "delete") and repeat the steps above.
 
      ![](images/BAS_Project_App_Info.png)
 
-13. Open your Projects folder via menu: File > Open Folder ... and enter "/home/user/projects".</li><br />
+<br>
+
+13. Open your Projects folder via menu: File > Open Folder ... and enter "/home/user/projects".</li>
 
      ![](images/Open_Projects_folder.png)
+ 
+ <br>
  
 14. Click <strong>OK</strong>.</li>
 
