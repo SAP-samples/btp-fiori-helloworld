@@ -22,6 +22,8 @@ As shown in the previous step:
 As shown in the previous card, the Booster checks if you have all the entitlements and free quota that are needed to run the booster. 
 If the step "Check Prerequisites" passes. Press "Next".
 
+**Important**: Before proceeding to step 2, configuring the booster, please check in [SAP Discovery Center](https://discovery-center.cloud.sap/viewServices?showFilters=true&provider=all&regions=all) for which regions and providers the required services are available and which region and provider you like to choose. If you choose a region or provider, which does not offer the required service, the booster will skip the service.
+
 
 **`Step 2 - "Set Up Subaccount"`**
 
