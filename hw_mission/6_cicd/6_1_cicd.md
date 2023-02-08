@@ -9,8 +9,11 @@ In this mission you will use GitHub.
 
 ### Enable SAP Continuous Integration and Delivery service
 
-
-#### Prepare
+<details><summary>
+Find your CI/CD service
+</summary>
+   
+  
 
 1. Go to your SAP BTP cockpit by using one of the following links, depending on the landscape you want to use: <br>
    Enterprise Account: https://cockpit.hanatrial.ondemand.com/ <br>
@@ -25,9 +28,13 @@ In this mission you will use GitHub.
 4. In your Subaccount, choose **Instances and Subscripions** and check if Continuous Integration & Delivery service is already subscribed. 
    This is the case, if you executed the booster in the previous section with the option to activate CI/CD.
 
+</details>
 
 
-#### Activate CI/CD service
+<details><summary>
+Activate CI/CD service
+</summary>
+
 
 1. If you did not already subscribe to the CI/CD service, choose **Service Marketplace** in the left-hand pane.
 
@@ -44,10 +51,12 @@ In this mission you will use GitHub.
 
 8. From the dropdown list, select **CICD Service Administrator** and **CICD Service Developer** and confirm your choice with Assign Role Collection.
 
+</details>
 
+<details><summary>
+Access Continuous Integration and Delivery Service
+</summary>
 
-
-#### Access Continuous Integration and Delivery Service
 
 1. In your SAP BTP subaccount, navigate to Services → Instances and Subscriptions in the left-hand pane.
 
@@ -64,8 +73,14 @@ In this mission you will use GitHub.
 
 <br>
 
+</details>
 
-#### Create Credentials for Accessing GitHub and BTP
+### Configure your CI/CD Service
+
+<details><summary>
+   Create Credentials for Accessing GitHub and BTP
+</summary>
+
 
 1. Choose **Credentials** on the top-level navigation.
 
@@ -78,13 +93,21 @@ In this mission you will use GitHub.
 
    ![](images/6_1_cicdapp_3_cred.png)
 
-4. Create Credentials for accessing the BTP platform, which will be needed to deploy the build archive. 
-   Provide a name for th entry, e.g. "deployonbtp", choose Authentication Type, e.g. Basic Authetication, and provide the user and password for a user which has the assigned role collection for CI/CD usage.
-For productive usage consider to create and use a technical user.
-
+4. Create Credentials for accessing the BTP platform, which will be needed to deploy the build archive. <br>
+   Provide a name for th entry, e.g. "deployonbtp. <br>
+   Choose Authentication Type, e.g. Basic Authetication <br>
+   Provide the user and password for a user which has the assigned role collection for CI/CD usage. <br>
+   For productive usage consider to create and use a technical user.
 <br>
+   
+</details>
 
-#### Create an Entry for your GitHub Repository
+
+
+
+<details><summary>
+Create an CI/CD Entry for your GitHub Repository
+</summary>
 
 1. Click on "Repositories" in the top-level navigation.
 
@@ -104,9 +127,14 @@ For productive usage consider to create and use a technical user.
    
    ![](images/6_1_cicdapp_5_webhook.png)
 
-<br>
+   <br>
+   </details>
 
-#### Create the Webhook Credentials for the CI/CD pipeline
+
+<details><summary>
+   Create the Webhook Credentials for the CI/CD pipeline
+</summary>
+
 
 1. Click on Credentials again, choose "+" Add Credentials again.
 
@@ -115,8 +143,13 @@ For productive usage consider to create and use a technical user.
    ![](images/6_1_cicdapp_6_whcred.png)
   
 <br>  
+   
+   </details>
 
-#### Create the Webhook in your GitHub Repository
+<details><summary>
+   Create the Webhook in your GitHub Repository
+</summary>
+
 
 1. Open your GitHub Repository, which contains your **helloworldui5 project** from the previous section.
 
@@ -132,10 +165,14 @@ For productive usage consider to create and use a technical user.
 
 4. Click on **Add Webhook** and check the result. <br>
 
-
 <br>  
+   </details>
 
-#### Create a Job with your CI/CD Service Job Editor
+### Create a Job with your CI/CD Service Job Editor
+
+<details><summary>
+Create a Job
+   </summary>
 
 1. Click on **Jobs** in the CI/CD service. Choose `"+"` **Create Job**.
 
@@ -161,7 +198,7 @@ For productive usage consider to create and use a technical user.
 
 
 
-3. Switch **`ON`** your **Release** Stage. <br>
+5. Switch **`ON`** your **Release** Stage. <br>
    Provide the deployment information to your Cloud Foundry Space. <br>
    
    **API Endpoint:** copy from your Subaccount "Overview" page  <br>
@@ -174,9 +211,9 @@ For productive usage consider to create and use a technical user.
 
 <br>
 
-4. Clicke **`Create`**.
+6. Clicke **`Create`**.
 
-5. Click **`Run`**. <br>
+7. Click **`Run`**. <br>
    Build and deployment will take some minutes.  <br>
    You can see the log of the build process during execution of the buld pipeline. <br>
    If everything is ok, you will get a green result log <br>
@@ -185,15 +222,21 @@ For productive usage consider to create and use a technical user.
       
    <br>
 
-6. Congratulations! If the Release Stage is also green, your Job has been deployed. <br>
+8. Congratulations! If the Release Stage is also green, your Job has been deployed. <br>
    Check the result in your Subaccount **HTML5 Applications** : <br>
    (Note: You can create the "helloworldclone" app in a different tutorial)
    
       ![](images/6_1_cicdapp_12_html5app.png)
    
    <br>
-   
-#### Hints, Tips and Troubleshooting
+</details>
+
+
+
+<details><summary>
+   Hints, Tips and Troubleshooting
+</summary>
+
 
 This tutorial works only if you dont have subfolders in your Git repository. 
 Because the Job Editor of CI/CD does not support configuring subfolders. 
@@ -203,9 +246,14 @@ Check the Quota of your Cloud Foundry Runtime in your Subaccount.
 If you dont have enough free Quota, the release stage of CI/CD service will fail, as well as manual deployment. 
 For example, if you want to deploy 2 HTML5 apps deployed, you need 2 units of Cloud Foundry Runtime as quota in your Subaccount.
 See also this [SAP Blog](https://blogs.sap.com/2022/02/11/optimise-your-sap-btp-cloud-foundry-runtime-costs/).
-
+</details>
 
 ### Create a Job with .pipeline/config.yml
+
+
+<details><summary>
+Use a config file instead of Job Editor   
+</summary>
 
 If you use subfolders in your Fiori project you have to use **.pipeline/config.yml** pipeline definition in your Git repository. <br>
 You can create one from your Job Editor definitions. <br>
@@ -260,11 +308,16 @@ steps:
 You have to cretae in the root of your GitHub Repository the folder and file **.pipeline/config.yml** and provide the configurations.
 Switch the **Configruation Mode** of your Job to **Source Repository** and **Run**.
 
-
 <br>
+   
+</details>
 
-### Further information
+
+
+<details><summary>Further information
+</summary> 
 
 SAP Help Portal: [Continuous Integration and Delivery](https://help.sap.com/docs/CONTINUOUS_DELIVERY?locale=en-US)
 
 SAP Help Portal: [Continuous Integration and Delivery by SAP](https://help.sap.com/docs/CICD_OVERVIEW)
+</details>
