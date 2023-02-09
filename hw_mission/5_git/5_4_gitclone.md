@@ -6,10 +6,10 @@ in BAS you can do this manually, using a the terminal or u use the BAS wizard.
 
 
 
-### Clone a Repository from GitHub
+
 <details>
 <summary>
-Procedure:
+<h3>Step 1- Clone a Repository from GitHub</h3>
 </summary>
     
 1. Create a new empty repository in your GitHub organization or user. <br>
@@ -55,16 +55,18 @@ You may now create a new Fiori/UI5 hello world app from the scratch by clicking 
 
 <br>
 </details>
-<br>
 
-### Create an SAP Fiori Application with "Start from template"
 
-Like described in detail in the previous section "Create an SAP Fiori Application with **Start from template**" execute the following steps.
+
+
+
 <details>
 <summary>
-Procedure
+    <h3>Step 2- Create an SAP Fiori Application with "Start from template" </h3>
 </summary>
-
+<br>
+    
+These steps are also described in detail in the previous section "Create an SAP Fiori Application with **Start from template**".
 
 1. Click on Start from template in the "Get Started" tab to create the project. <br> 
    you can reopen the Get Started tab in the Menu Bar --> Help --> Get Started <br>
@@ -118,13 +120,13 @@ Choose Next.<br>
 
 <br>
 </details>
-<br>
 
 
-### Commit your Changes to Git and Push to your Remote Repository
+
+
 
 <details><summary>
-Procedure
+<h3>Step 3 - Commit your Changes to Git and Push to your Remote Repository </h3>
 </summary>
     
     

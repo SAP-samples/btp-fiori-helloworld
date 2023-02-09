@@ -1,16 +1,16 @@
-## Continuous Integration and Delivery (CI/CD)
+## Setting Up Continuous Integration and Delivery (CI/CD) Service
 
-SAP Continuous Integration and Delivery (CI/CD) is a service on SAP BTP, which lets you configure and run predefined continuous integration and delivery pipelines. 
-It connects with your Git SCM repository and builds, tests, and deploys your code changes. 
-In its user interface, you can easily monitor the status of your builds and detect errors as soon as possible, which helps you prevent integration problems before completing your development.
+SAP Continuous Integration and Delivery (CI/CD) is a service on SAP BTP, which lets you configure and run predefined continuous integration and delivery pipelines. It connects with your Git repository and builds, tests, and deploys your code changes.
 
-In this mission you will use GitHub.
+SAP Continuous Integration and Delivery has among others a ready-to-use pipeline for SAP Fiori in the Cloud Foundry Environment. For further information see [SAP Help Portal](https://help.sap.com/docs/CONTINUOUS_DELIVERY/99c72101f7ee40d0b2deb4df72ba1ad3/618ca03fdca24e56924cc87cfbb7673a.html?language=en-US&locale=en-US).
+
+In this mission you will use GitHub as remote repository.
 
 
 ### Enable SAP Continuous Integration and Delivery service
 
 <details><summary>
-Find your CI/CD service
+Step 1 - Find your CI/CD service
 </summary>
    
   
@@ -32,7 +32,7 @@ Find your CI/CD service
 
 
 <details><summary>
-Activate CI/CD service
+Step 2 - Activate CI/CD service
 </summary>
 
 
@@ -54,7 +54,7 @@ Activate CI/CD service
 </details>
 
 <details><summary>
-Access Continuous Integration and Delivery Service
+Step 3 - Access Continuous Integration and Delivery Service
 </summary>
 
 
@@ -78,7 +78,7 @@ Access Continuous Integration and Delivery Service
 ### Configure your CI/CD Service
 
 <details><summary>
-   Create Credentials for Accessing GitHub and BTP
+Step 4 - Create Credentials for Accessing GitHub and BTP
 </summary>
 
 
@@ -106,7 +106,7 @@ Access Continuous Integration and Delivery Service
 
 
 <details><summary>
-Create an CI/CD Entry for your GitHub Repository
+Step 5 - Create an CI/CD Entry for your GitHub Repository
 </summary>
 
 1. Click on "Repositories" in the top-level navigation.
@@ -132,7 +132,7 @@ Create an CI/CD Entry for your GitHub Repository
 
 
 <details><summary>
-   Create the Webhook Credentials for the CI/CD pipeline
+Step 6 - Create the Webhook Credentials for the CI/CD pipeline
 </summary>
 
 
@@ -147,7 +147,7 @@ Create an CI/CD Entry for your GitHub Repository
    </details>
 
 <details><summary>
-   Create the Webhook in your GitHub Repository
+Step 7 - Create the Webhook in your GitHub Repository
 </summary>
 
 
@@ -171,8 +171,8 @@ Create an CI/CD Entry for your GitHub Repository
 ### Create a Job with your CI/CD Service Job Editor
 
 <details><summary>
-Create a Job
-   </summary>
+Step 8 - Create a Job
+</summary>
 
 1. Click on **Jobs** in the CI/CD service. Choose `"+"` **Create Job**.
 
@@ -233,27 +233,13 @@ Create a Job
 
 
 
-<details><summary>
-   Hints, Tips and Troubleshooting
-</summary>
-
-
-This tutorial works only if you dont have subfolders in your Git repository. 
-Because the Job Editor of CI/CD does not support configuring subfolders. 
-You can solve this using a pipeline definition with configuration.yml file. 
-
-Check the Quota of your Cloud Foundry Runtime in your Subaccount. 
-If you dont have enough free Quota, the release stage of CI/CD service will fail, as well as manual deployment. 
-For example, if you want to deploy 2 HTML5 apps deployed, you need 2 units of Cloud Foundry Runtime as quota in your Subaccount.
-See also this [SAP Blog](https://blogs.sap.com/2022/02/11/optimise-your-sap-btp-cloud-foundry-runtime-costs/).
-</details>
-
 ### Create a Job with .pipeline/config.yml
 
 
 <details><summary>
-Use a config file instead of Job Editor   
+Step 9 - Use a config file instead of Job Editor   
 </summary>
+<br>   
 
 If you use subfolders in your Fiori project you have to use **.pipeline/config.yml** pipeline definition in your Git repository. <br>
 You can create one from your Job Editor definitions. <br>
@@ -312,11 +298,25 @@ Switch the **Configruation Mode** of your Job to **Source Repository** and **Run
    
 </details>
 
+### Appendix   
 
 
-<details><summary>Further information
+<details><summary>
+   Hints, Tips and Troubleshooting
+</summary>
+<br>   
+Using the Job Editor instead of config.yml works only if you dont have subfolders in your Git repository. The Job Editor of CI/CD does not support configuring subfolders. You can solve this using a pipeline definition with configuration.yml file. 
+
+Check the Quota of your Cloud Foundry Runtime in your Subaccount. 
+If you dont have enough free Quota, the release stage of CI/CD service will fail, as well as manual deployment. 
+For example, if you want to deploy 2 HTML5 apps deployed, you need 2 units of Cloud Foundry Runtime as quota in your Subaccount.
+See also this [SAP Blog](https://blogs.sap.com/2022/02/11/optimise-your-sap-btp-cloud-foundry-runtime-costs/).
+</details>
+
+<details><summary>
+Further information
 </summary> 
-
+<br>
 SAP Help Portal: [Continuous Integration and Delivery](https://help.sap.com/docs/CONTINUOUS_DELIVERY?locale=en-US)
 
 SAP Help Portal: [Continuous Integration and Delivery by SAP](https://help.sap.com/docs/CICD_OVERVIEW)
