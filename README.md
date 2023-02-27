@@ -1,6 +1,6 @@
 # Get Started on SAP BTP by Creating a "Hello World" App with SAPUI5/SAP Fiori
 
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world)](https://api.reuse.software/info/github.com/SAP-samples/btp-cloud-foundry-fiori-hello-world)
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-hello-world-fiori)](https://api.reuse.software/info/github.com/SAP-samples/btp-hello-world-fiori)
 
 ## Description
 The goal of this mission is to create a simple Hello World application using SAPUI5 / SAP Fiori running on SAP Business Technology Platform (SAP BTP) leveraging SAP Business Application Studio (BAS), Cloud Foundry runtime, and SAP Launchpad Service.
