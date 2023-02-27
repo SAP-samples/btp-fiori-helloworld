@@ -14,7 +14,7 @@ This mission includes the following steps:
 
 * **Integrate** the app into SAP Build Workzone 
 
-This is how the result will look like in SAP Buil Work Zone:
+This is how the result will look like in SAP Build Work Zone:
 
 ![](images/d1_helloworld_app.png)
 
