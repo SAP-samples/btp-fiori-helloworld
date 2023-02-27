@@ -18,5 +18,5 @@ This is how the result will look like in SAP Buil Work Zone:
 
 ![](images/d1_helloworld_app.png)
 
-
+![](pages/1_discover/images/d1_helloworld_app.png)
 
