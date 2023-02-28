@@ -26,29 +26,11 @@ Go to your SAP BTP Trial Account with this link: [Welcome to SAP BTP trial](http
 
 For more information see the following step-by-step guides:
 
-### Sign up for BTP Trial Account
 
-1. [Sign up for a free trial account on SAP BTP](docs/pages/2_setup_trial/1_get_trial.md) and 
+### Get Started
 
-
-### Setup your BTP Trial Account
-
-To setup your BTP Trial Account follow this step-by-step guides:
-
-1. [Setup the Launchpad Service](docs/pages/2_setup_trial/4_setup_workzone.md)
-
-
-### Create your Hello World App
-
-To create your Hello Wolrd app follow this step-by-step guides:
-
-1. [Setup SAP Business Application Studio](docs/pages/3_develop/1_setup_bas.md)
-2. [Create an SAP Fiori Application with "Start from template"](docs/pages/3_develop/2_create_app.md)
-3. [Test and Preview the UI application in SAP Business Application Studio](docs/pages/3_develop/3_test_app_local.md)
-4. [Build and deploy your HelloWorld the cloud application ](docs/pages/3_develop/4_build_mta.md)
-5. [Configure your HTML5 Application for the Launchpad ](docs/pages/4_workzone/5_prepare_launchpad.md)
-6. [Create a Launchpad Site](docs/pages/4_workzone/6_create_launchpad_site.md)
-7. [Add your App to the Launchpad](docs/pages/4_workzone/7_addapp_to_launchpad.md)
+For more information see the step-by-step guide on [GitHub Pages](https://sap-samples.github.io/btp-hello-world-fiori/#/) 
+or as mission in [Discovery Center (external link)](https://discovery-center.cloud.sap/missiondetail/3585/).
  
 
 ### Known Issues
