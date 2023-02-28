@@ -6,4 +6,4 @@
 [Legal Disclosure](https://www.sap.com/about/legal/impressum.html)   .
 [Terms of Use](https://www.sap.com/corporate/en/legal/terms-of-use.html)   .
 [Privacy](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement)   .
-Published with [GitHub Pages](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) and [docsify](https://docsify.js.io).
+Published with [GitHub Pages](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) and [docsify](https://github.com/docsifyjs/docsify/).
