@@ -1,4 +1,4 @@
-# Get Started on SAP BTP by Creating a "Hello World" App with SAPUI5/SAP Fiori
+# Get Started on SAP BTP by Creating a Hello-World App with SAPUI5/SAP Fiori
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-hello-world-fiori)](https://api.reuse.software/info/github.com/SAP-samples/btp-hello-world-fiori)
 
