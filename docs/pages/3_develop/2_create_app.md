@@ -11,9 +11,7 @@
 
    ![](images/ca2_wizard1.png)
 
-3. In the **Floorplan Selection** choose the following: <br>
-   For the field **Application Type** choose **SAPUI5 freestyle** from the drop-down. <br>
-   Select **SAPUI5 Application** as floorplan. <br>
+3. In the **Template Selection** keep template type "Fiori" and choose **Basic** <br>
    Choose **Next**.  <br>
 
    ![](images/ca3_wizard2.png)
