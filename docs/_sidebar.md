@@ -25,6 +25,7 @@
   - [Create Hello-World app](pages/3_develop/2_create_app.md)
   - [Test your app locally](pages/3_develop/3_test_app_local.md)
   - [Build and Deploy your app](pages/3_develop/4_build_mta.md)
+  - [Add or Change Deploy or FLP config](pages/3_develop/0_1_1_add_flp.md)
 
 - Add to Build Work Zone
 
