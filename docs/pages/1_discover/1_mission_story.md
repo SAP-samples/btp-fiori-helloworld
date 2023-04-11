@@ -1,3 +1,5 @@
+## About this Mission
+
 The goal of this mission is to create a simple Hello World application using SAPUI5 / SAP Fiori running on SAP Business Technology Platform (SAP BTP) leveraging SAP Business Application Studio (BAS), Cloud Foundry runtime, and SAP Launchpad Service.
 
 This mission includes the following steps:
@@ -19,4 +21,5 @@ This is how the result will look like in SAP Build Work Zone:
 ![](images/d1_helloworld_app.png)
 
 ![](pages/1_discover/images/d1_helloworld_app.png)
+
 
