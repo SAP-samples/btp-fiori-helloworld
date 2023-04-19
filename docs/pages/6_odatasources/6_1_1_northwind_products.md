@@ -1,6 +1,7 @@
 ## Develop a SAPUI5 Freesytle App with Nortwind Products OData service
 
 Note: This tutorial is for educational and training purposes and is not suitable for productive use.
+SAP Fiori Templates used in this tutorial are deprecated.
 
 <br>
 
