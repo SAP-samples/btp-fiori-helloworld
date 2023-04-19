@@ -1,4 +1,42 @@
-## Add some Content to your application
+# Preview and Extend your Application
+
+
+## Preview your Application 
+
+**Procedure**
+
+1. Right click on your project folder "helloworldui5" and choose **Preview Application**. 
+
+   ![](3_images/3_1_previewapp.png)
+
+
+2. Choose npm script: **start-noflp fiori run --open "intex.html?sap-ui-xx-viewCache=false"**
+
+   ![](3_images/3_1_startnoflp.png)
+
+3. A new browser tab opens with your app:
+
+  ![](3_images/3_3_app.png)
+
+
+## Change the title of your application
+
+**Procedure**
+
+1. Go to **Explorer** in the left navigation pane.
+
+2. Open folder "**webapp**" and subfolder **view** and your **View1**. <br>
+   Click on View1.view.xml. <br>
+
+   ![](3_images/3_4_view1.png)
+
+3. Change ``{i18n>title}`` to ``HelloWorld`` or sth. of your choice.
+
+   You will see the changes in the application preview accordingly.
+
+<br>
+
+## Add some Content to your Application
 
 **Procedure**
 
@@ -34,7 +72,7 @@
    ```
 3. Preview your application. The button will not work:
 
-   ![](3_2_images/3_2_1_addmessage.png)
+   ![](3_images/3_5_addmessage.png)
 
 3. You fired an [XML event](https://sapui5.hana.ondemand.com/sdk/#/topic/b0fb4de7364f4bcbb053a99aa645affe.html) 
    by clicking the button with `press=".onAlertMessageBoxPress"`. <br>
@@ -80,4 +118,4 @@
                                                        
  5. Preview your app:
  
-    ![](3_2_images/3_2_2_alert.png)
+    ![](3_images/3_6_alert.png)

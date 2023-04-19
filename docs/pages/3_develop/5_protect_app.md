@@ -4,12 +4,12 @@
 
 1. Open SAP Business Application Studio and in case open again the **Explorer** (the pages icon on the top left)&nbsp;
   
-    ![](images/bad1_explorer.png)
+   ![](4_images/4_1_explorer.png)
 
 2. Open the <em>xs-security.json</em> file. <br />
    You see that you did not define yet "scopes", no "role-templates" and no "role-collections". <br>
   
-     ![](images/bad2_securityjson.png)
+   ![](4_images/4_2_securityjson.png)
 
    Add "scopes", "role-templates" and "role-collections".
    The scope itself is defined in the application's security descriptor (xs-security.json), for example, "$XSAPPNAME.Display" or "$XSAPPNAME.Create". In your case, the only thing you do with the app is to view it, so you choose "$XSAPPNAME.View" . Role collections group authorizations for resources and services.
@@ -50,7 +50,7 @@
 
 3. Open the <em>xs-app.json</em> file. <br />
 
-   ![](images/bad2_xsappjson.png)
+   ![](4_images/4_3_xsappjson.png)
 
    Add a scope to the route for the webapp. The authorization scope is required to access the target path. 
    
@@ -76,7 +76,7 @@
    Right-click on the **mta.yaml** file and choose **Build MTA project**. <br>
    With this a folder "mta_archives" and a mtar file is created.
 
-   ![](images/bad3_buildmta.png)
+   ![](4_images/4_4_buildmta.png)
 
    You will get the following INFO Message:
 
@@ -93,7 +93,7 @@
    Make sure you are logged into your Cloud Foundry subaccount (described under step "Prepare your SAP Business Application Studio"). <br>
    Expand the project folder **mta_archives** and right-click on the built file **sap-btp-hellowordlui5_0.0.1.mtar** and select **Deploy MTA Archive**.
   
-   ![](images/bad4_deploymta.png)  
+   ![](4_images/4_5_deploymta.png)  
 
    Deployment target is the Cloud Foundry subaccount you are logged into.<br>
     
@@ -118,7 +118,7 @@
 
 11. Start your application again. Ususally you still see "Forbidden". You have to log-out and log-in again into the web application. The easiest way is to close the browser completely and open again, or use a second browser.   
 
-   ![](images/bad6_app.png)
+    ![](4_images/4_8_app.png)
 
 
 

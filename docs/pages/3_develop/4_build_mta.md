@@ -4,12 +4,12 @@
 
 1. Go back to your browser window or tab "SAP Business Application Studio" and in case open again the **Explorer** (the pages icon on the top left)&nbsp;
   
-     ![](images/bad1_explorer.png)
+     ![](4_images/4_1_explorer.png)
 
 2. Open the <em>xs-security.json</em> file. <br />
    You see that you did not define yet "scopes", no "role-templates" and no "role-collections". <br>
   
-     ![](images/bad2_securityjson.png)
+     ![](4_images/4_2_securityjson.png)
 
 
 
@@ -18,7 +18,7 @@
    The webapp matches the regular expression `"source": "^(.*)$",` and will use the `"service": "html5-apps-repo-rt",` which is the HTML5 Application Repository of BTP. <br>
    "authenticationType": "xsuaa" means user have to be authenticated against the BTP XS User and Authentication and Authorization service (XSUAA). The value can be `"xsuaa", "basic" or "none"`. 
   
-     ![](images/bad2_xsappjson.png)
+     ![](4_images/4_3_xsappjson.png)
      
 
    For more information, see SAP Help Portal [Application Router Configuration](https://help.sap.com/docs/SAP_HANA_PLATFORM/4505d0bdaf4948449b7f7379d24d0f0d/5f77e58ec01b46f6b64ee1e2afe3ead7.html) and [@sap/approuter on npmjs](https://www.npmjs.com/package/@sap/approuter).
@@ -29,7 +29,7 @@
     Right-click on the **mta.yaml** file and choose **Build MTA project**. <br>
     With this a folder "mta_archives" and a mtar file is created.
 
-    ![](images/bad3_buildmta.png)
+    ![](4_images/4_4_buildmta.png)
 
     You will get the following INFO Message:
 
@@ -47,7 +47,7 @@
     Make sure you are logged into your Cloud Foundry subaccount (described under step "Prepare your SAP Business Application Studio"). <br>
     Expand the project folder **mta_archives** and right-click on the built file **sap-btp-hellowordlui5_0.0.1.mtar** and select **Deploy MTA Archive**.
   
-    ![](images/bad4_deploymta.png)  
+    ![](4_images/4_5_deploymta.png)  
 
     Deployment target is the Cloud Foundry subaccount you are logged into.<br>
     
@@ -57,7 +57,7 @@
     It takes a while to complete the task. You will see a success message in the console once it's done. <br />
     If not, check the previous steps again.<br />
   
-    ![](images/bad5_terminal.png)
+    ![](4_images/4_6_terminal.png)
 
   
 7. Switch to your **subaccount </strong>in the SAP BTP Cockpit**. <br>   
@@ -65,7 +65,7 @@
    You will see the deployed application in the repository. <br>
    Click on the application name "**saphelloworldui5**. Your deployed app will open in a new window.
 
-   ![](images/bad5_html5.png)
+   ![](4_images/4_7_html5.png)
 
 
 

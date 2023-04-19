@@ -31,18 +31,18 @@ Set-up your Subaccount with Cloud Foundry Environment for HTML5 development incl
    Type in the search fiels **Fiori**. A list of available Fiori commands drops down. <br>
    Choose **Fiori: Add Deployment Configuration**.
 
-   ![](images/0_1_adddeploy.png)
+   ![](7_images/7_1_adddeploy.png)
 
 3. Choose from the next drop down list your target Fiori project. 
 
 4. Alternative: Choose from the Command Palette the command **Fiori: Open Application Information** and select "Add Deploy Config".
 
-   ![](images/0_3_adddeploy_appinfo.png)
+   ![](7_images/7_2_adddeploy_appinfo.png)
 
 4. Choose "Yes" for "Add deployment configuration", choose as target "Cloud Foundry", destination: "None" and "Yes" for "Add to managed application router". <br>
    If a deployment Configuration already exists, you will get an addition warning.
 
-   ![](images/0_2_adddeploy.png)
+   ![](7_images/7_3_adddeploy.png)
 
 5. Choose "Finish". The configuration will be added to your Project as **mta.yaml** .
 
