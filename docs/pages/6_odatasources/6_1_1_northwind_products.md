@@ -233,39 +233,38 @@ There is also the option to start this application just with local mockdata.
             }
    ```
    
-   Check definition of the <table>, <colums> and <items> of this view. 
+   Check definition of the `<table>`, `<colums>` and `<items>` of this view. 
 
 
-5. Open **Object.view.xml**. <br>   
+5. Open `Object.view.xml`. <br>   
 
 6. Check the data source for the Object view. It gets the data from the Worklist view. <br>
-   Check the definition of the <semantic:headerContent> in this view. It shows already some data. But in the formatting of the template.  You will change this later.
+   Check the definition of the <semantic:headerContent> in this view. 
+   It shows already some data, but in the formatting of the template. You will change this later.
 
-<br>
 
 
-## Redesign your Application
 
-We want basically show 4 columns in the detail-view and remove unnecessary template left-overs.
+### Redesign your Application
 
-### Changes in the i18n.properties file
+Show 4 columns instead of 2 in the detail-view and remove unnecessary template left-overs.
 
-You make a small change to see the impact.
+#### Change in the i18n.properties file
+
+First Make a small change to see the impact.
 
 1. Open your project folder --> webapp --> i18n.properties
-
 2. Change `worklistTableTitle=SAPUI5 Worklist with Northwind OData Service` to `worklistTableTitle=Manage Products`.
 
-> Tip: You can search in BAS for semantic:headerContent simply by pressing CTRL + F.
+Tip: You can search in BAS for semantic:headerContent simply by pressing CTRL + F. <br>
+You will change other text values directly in Views.
 
-We will change other text values directly in Views, for a better training experience.
 
+#### Changes in the Worklist
 
-### Changes in Worklist.view.xml
-
-1. In the <Table> definition, extend the items query in order to get the CategoryName later:
+1. In  `Worklist.view.xml` find the `<Table>` definition , extend the items query in order to get the CategoryName later:
  
-   ```
+   ```Javascript
                 items="{
                     path: '/Products',
                     parameters: {expand: 'Category'},
@@ -273,12 +272,11 @@ We will change other text values directly in Views, for a better training experi
                         path: 'ProductName',
                         descending: false
                     }
-
    ```
 
 2. Replace colums and items with your new defition:
 
-```
+   ```Javascript
                 <columns>
                     <Column id="nameColumn1">
                         <Text text="{i18n>tableNameColumnTitle}" id="nameColumnTitle1"/>
@@ -309,15 +307,13 @@ We will change other text values directly in Views, for a better training experi
                         </cells>
                     </ColumnListItem>
                 </items>
-```
+   ```
 
-<br>
+  <br>
 
+#### Changes in the Object.view.xml
 
-### Changes in the Object.view.xml
-
-
-1. Changes to the Worklist product details in `<semantic:headerContent>`. <br>
+1. in the `Object.view.xml` change the Worklist product details in `<semantic:headerContent>`. <br>
    Paste the following code (you may save your old code locally if you want to compare it later). <br>
 
    ```
@@ -338,11 +334,11 @@ We will change other text values directly in Views, for a better training experi
             
 
 
-6. Preview your Application. Looks much better, isn`t it?
+2. Preview your Application. Looks much better, isn`t it?
 
    ![](images/6_1_prod_7_newapp.png)
 
-<br>
+   <br>
 
 
 ### Conclusion

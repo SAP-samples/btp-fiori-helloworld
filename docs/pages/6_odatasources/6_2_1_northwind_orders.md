@@ -228,7 +228,7 @@ Set-up your Subaccount with Cloud Foundry Environment for HTML5 development incl
         },
    ```
    
-   Check definition of the <List> and <items> of this view. You will change this later.
+   Check definition of the `<List>` and `<items>` of this view. You will change this later.
 
 
 5. Open **Detail.view.xml**. <br>   
@@ -237,7 +237,7 @@ Set-up your Subaccount with Cloud Foundry Environment for HTML5 development incl
    `items="{Order_Details}"` <br>
    This definition just shows a flat Order_details list from Northwind. The ProductName is missing. You will change this later.
    
-   Check the definition of the <items> shown in this view. It show already basic data. The Productname is missing and the UnitPrice has no currency. You will change this later.  
+   Check the definition of the `<items>` shown in this view. It show already basic data. The Productname is missing and the UnitPrice has no currency. You will change this later.  
    ``` 
     <items>
         <ColumnListItem>
@@ -265,24 +265,11 @@ Set-up your Subaccount with Cloud Foundry Environment for HTML5 development incl
 
 We want to see the OrderID and CustomerID on the List-view and the ProductID, ProductName and the UnitPrice on the corresponding Detail-view.
 
-### Optional: Changes in the manifest.json file
-
-As you use a deprecated template, correct the settings: 
-
-1. Open ui5northwindorders/webapp/manifest.json
-
-2. Search for 
-
-```
-"sap.ui5": {
-        "flexEnabled": true,
-```
-3. Set it to `false`.
 
 
 ### Changes in the i18n.properties file
 
-You make a small change to see the impact.
+Make a small change to see the impact.
 
 1. Open your project folder --> webapp --> i18n.properties
 
@@ -450,11 +437,26 @@ In the `ui5.yaml` file:
 
 ### Build, Deploy and Run your App
 
-1. Select the mta.yaml file of project 
+1. Select the mta.yaml file of your project. <br>
+    Right click and select **Build MTA Project** from the context menue.
 
-2. right click and select Build MTA.
+2. You will get the following INFO Message:
 
+   INFO the MTA archive generated at: `/home/user/projects/ui5northwindorders/mta_archives/sap-btp-ui5northwindorders_0.0.1.mtar`
 
+3. Open the project folder `mta_archives` and select the your `sap-btp-ui5northwindorders_0.0.1.mtar` file.
+   Right-click and select **Deploy MTA Archive**.
+
+4. If you have not yet logged into your Cloud Foundry Subaccount, you have to authenticate and select your Deployment Target (Cloud Foundry Space) now.
+
+5. After the deployment is triggered, you can see the progress of the deployment in the BAS **terminal** under Task: Deploy MTA Archive.
+
+6. It takes a while. When done, switch to your subaccount in the SAP BTP Cockpit.  <br>
+   Select HTML5 Application on the left navigation pane. <br>
+   You will see the deployed application in the repository. <br>
+   Click on your application name. Your deployed app will open in a new window.
+
+7. Congratulations!
 
 
 ### Conclusion
