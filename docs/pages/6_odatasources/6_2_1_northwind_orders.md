@@ -111,7 +111,7 @@ Set-up your Subaccount with Cloud Foundry Environment for HTML5 development incl
      The OData V2 service URL is: https://services.odata.org/V2/Northwind/Northwind.svc/ . <br>
      The service metadata will be loaded in the background. 
 
-   ![](images/6_1_nw/6_2_orders_0_data_source.png)
+   ![](images/6_2_orders_0_data_source.png)
 
 8. Press "Next".
 
@@ -134,7 +134,7 @@ Set-up your Subaccount with Cloud Foundry Environment for HTML5 development incl
    **Line item number** select "UnitPrice" <br>
    **Line item unit of measure** select "Quantity" <br>
 
-    ![](images/6_1_nw/6_2_orders_1_entity_selection.png)
+    ![](images/6_2_orders_1_entity_selection.png)
 
     <br>
 
@@ -149,7 +149,7 @@ Set-up your Subaccount with Cloud Foundry Environment for HTML5 development incl
     FLP: "Yes" (optional, you can add FLP configs also later)
     Advanced options: "No" .  <br>
 
-    ![](images/6_1_nw/6_2_orders_2_project.png)
+    ![](images/6_2_orders_2_project.png)
 
 11. Choose **Next** or **Finish**. 
 
@@ -172,18 +172,18 @@ Set-up your Subaccount with Cloud Foundry Environment for HTML5 development incl
 
 2. Right-click you app **ui5northwindorders** and select **Preview Application**.
 
-   ![](images/6_1_nw/6_2_orders_3_preview_app.png)
+   ![](images/6_2_orders_3_preview_app.png)
 
 3. Choose **start-noflp** as option (you may also try out other options).
 
-   ![](images/6_1_nw/6_2_orders_4_preview_app.png)
+   ![](images/6_2_orders_4_preview_app.png)
 
 4. Disable your pop-up blocker if necessary.
 
 5. Enjoy your app on localhost. Not very human-readable so far. 
    The List-view and the Detail-view could be improved. You will do this later in the tuorial.
 
-   ![](images/6_1_nw/6_2_orders_5_local_app.png)
+   ![](images/6_2_orders_5_local_app.png)
 
 
 <br>
@@ -396,7 +396,7 @@ You add CustomerID in the list. This means removing the number and numberUnit fi
 
 6. Preview your Application. Looks much better, isn`t it?
 
-   ![](images/6_2_nwld/6_2_6_new_app.png)
+   ![](images/6_2_orders_6_new_app.png)
 
 <br>
 

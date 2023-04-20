@@ -104,7 +104,7 @@ Set-up your Subaccount with Cloud Foundry Environment for HTML5 development incl
 5. Select **SAPUI5 freestyle** as Application Type.
 6. Select SAP Fiori **SAP Fiori Worklist Application**.
 
-   ![](images/6_1_nw/6_1_prod_1_template.png)
+   ![](images/6_1_prod_1_template.png)
 
 7. In the step **Data Source and Service Selection** select as **Data Source**: 
    * Option A: "Connect to a System" to use the backend Northwind definition. Choose if you want to deploy your app to the backend. <br>
@@ -114,7 +114,7 @@ Set-up your Subaccount with Cloud Foundry Environment for HTML5 development incl
      The OData V2 service URL is: https://services.odata.org/V2/Northwind/Northwind.svc/ . <br>
      The service metadata will be loaded in the background. 
 
-   ![](images/6_1_nw/6_1_prod_2_datasource.png)
+   ![](images/6_1_prod_2_datasource.png)
 
 8. Press "Next".
 
@@ -130,7 +130,7 @@ Set-up your Subaccount with Cloud Foundry Environment for HTML5 development incl
     **Object unit of measure** select "UnitPrice" or "None" <br>
 
 
-    ![](images/6_1_nw/6_1_prod_2_entities.png)
+    ![](images/6_1_prod_2_entities.png)
 
     <br>
 
@@ -144,7 +144,7 @@ Set-up your Subaccount with Cloud Foundry Environment for HTML5 development incl
     Add deployment configuration: "YES" (it is optional, in case you want to deploy to BTP Cloud Foundry runtime) <br>
     Skip FLP and advanced options. You can add FLP configs also later.  <br>
 
-    ![](images/6_1_nw/6_1_prod_3_project.png)
+    ![](images/6_1_prod_3_project.png)
 
 11. Choose **Next** or **Finish**. 
 
@@ -169,14 +169,14 @@ Set-up your Subaccount with Cloud Foundry Environment for HTML5 development incl
 
 3. Choose **start-noflp** as option (you may also try out other options).
 
-   ![](images/6_1_nw/6_1_prod_4_noflp.png)
+   ![](images/6_1_prod_4_noflp.png)
 
 4. Disable your pop-up blocker if necessary.
 
 5. Enjoy your app on localhost. Columns and content are not yet perfect. 
    You will do this later in the tuorial.
 
-   ![](images/6_1_nw/6_1_prod_5_noflp_app.png)
+   ![](images/6_1_prod_5_noflp_app.png)
 
 
 ### Optional preview with "start-mock"
@@ -192,7 +192,7 @@ There is also the option to start this application just with local mockdata.
    
 4. Enjoy the result. Note: It shows also how the redesigned app will look like.
 
-   ![](images/6_1_nw/6_1_prod_6_mock.png)
+   ![](images/6_1_prod_6_mock.png)
 
 <br>
 
@@ -340,7 +340,7 @@ We will change other text values directly in Views, for a better training experi
 
 6. Preview your Application. Looks much better, isn`t it?
 
-   ![](images/6_1_nw/6_1_prod_7_newapp.png)
+   ![](images/6_1_prod_7_newapp.png)
 
 <br>
 
