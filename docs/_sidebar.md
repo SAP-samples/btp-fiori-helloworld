@@ -23,9 +23,11 @@
 
   - [Set-up Business Application Studio](pages/3_develop/1_setup_bas.md)
   - [Create Hello-World app](pages/3_develop/2_create_app.md)
-  - [Test your app locally](pages/3_develop/3_test_app_local.md)
+  - [Test and Extend your app](pages/3_develop/3_add_content.md)
   - [Build and Deploy your app](pages/3_develop/4_build_mta.md)
-  - [Add or Change Deploy or FLP config](pages/3_develop/0_1_1_add_flp.md)
+  - [Add Security](pages/3_develop/5_protect_app.md)
+  - [Add Logging adn Debugging](pages/3_develop/6_log_debug.md)
+  - [Add or Change Deployment or FLP config](pages/3_develop/7_add_flp.md)
 
 - Add to Build Work Zone
 
