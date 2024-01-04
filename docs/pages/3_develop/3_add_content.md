@@ -1,42 +1,47 @@
 # Preview and Extend your Application
 
 
-## Preview your Application 
+### Preview your Application 
 
 **Procedure**
 
-1. Right click on your project folder "helloworldui5" and choose **Preview Application**. 
+1. Right click on the project folder "webapp" and choose **Preview Application**. 
 
    ![](3_images/3_1_previewapp.png)
 
 
 2. Choose npm script: **start-noflp fiori run --open "intex.html?sap-ui-xx-viewCache=false"**
 
-   ![](3_images/3_1_startnoflp.png)
+   ![](3_images/3_2_startnoflp.png)
 
 3. A new browser tab opens with your app:
 
   ![](3_images/3_3_app.png)
 
 
-## Change the title of your application
+### Optional: Change the i18n title of your application
 
 **Procedure**
 
 1. Go to **Explorer** in the left navigation pane.
 
-2. Open folder "**webapp**" and subfolder **view** and your **View1**. <br>
-   Click on View1.view.xml. <br>
+2. Open folder "**webapp**" and subfolder **view** and your **View1**. 
+
+   Click on View1.view.xml and see where the title is defined
 
    ![](3_images/3_4_view1.png)
 
-3. Change ``{i18n>title}`` to ``HelloWorld`` or sth. of your choice.
+3. Open folder "**webapp**" and subfolder **i18n**. 
+
+   Change `title=Hello World App Title` to whatever you like:
+
+   ![](3_images/3_4_view1_i18n.png)
 
    You will see the changes in the application preview accordingly.
 
-<br>
 
-## Add some Content to your Application
+
+### Optional: Add some Content to your Application
 
 **Procedure**
 
