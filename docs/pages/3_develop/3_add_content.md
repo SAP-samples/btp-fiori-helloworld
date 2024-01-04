@@ -90,6 +90,8 @@
    Extend your controller with the eventhandler `onPress`.
 
    Note, that you also need to add the libraries **MessageBox** and **MessageToast**.
+
+   Note, if you copy and paste the code, make sure that all namings fit to your app. Especially the view name `"sap.btp.helloworldui5.controller.View1"` and the event name `onPress`.
    
    ```
    sap.ui.define([
