@@ -65,8 +65,6 @@
 
 4. Add a predefined image to your application, using drag&drop:
 
-   https://ui5.sap.com/resources/sap/ui/documentation/sdk/images/logo_ui5.png
-
    ![](3_images/3_7_add_image.png)
 
 5. Preview your application.
