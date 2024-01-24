@@ -1,6 +1,11 @@
 
 # Create an SAP Fiori Application with "Start from template"
 
+This tuorial uses the basic template to create a SAPUI5 app. The basic template is intended for all developers who want to start developing their own SAPUI5 app from scratch. 
+
+If you develop a business apps you may prefer using [Fiori Elements](https://experience.sap.com/fiori-design-web/smart-templates/) consuming services from Cloud Applicatin Programming Model (CAP) or ABAP RESTful Application Programming Model (RAP). Fiori Elements provide less flexibility but speed up development by reducing the amount of frontend code needed to build SAP Fiori apps.  
+
+
 **Procedure**
 
 1. Click on **Start from template** in the Welcome tab to create the project.
@@ -11,11 +16,11 @@
 
    ![](images/ca2_wizard1.png)
 
-3. In the **Template Selection** keep template type "Fiori" and choose **Basic** 
+3. In the **Template Selection** keep template type "Fiori" and choose **Basic**.
+    
+    Choose **Next**.  
 
-   Choose **Next**.  
-
-   ![](images/ca3_wizard2.png)
+    ![](images/ca3_wizard2.png)
 
 4. In the **Data Source and Service Selection** choose **None** for Data source, because you create a "Hello World" without data binding.
 
