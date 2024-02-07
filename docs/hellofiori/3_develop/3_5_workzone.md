@@ -25,7 +25,7 @@ You have finished the previous tutorial and created and deployed a SAPUI5 app.
    
     Open in project explorer the file helloworldui5 --> webapp --> manifest.json. 
     
-    Search for `crossNavigation``.
+    Search for `crossNavigation`.
 
     ![](images/3_5_1_crossnavigation.png)
 
