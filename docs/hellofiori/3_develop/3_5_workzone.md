@@ -31,7 +31,7 @@ You have finished the previous tutorial and created and deployed a SAPUI5 app.
 
 
 
-    ```JSON 
+    ``` 
     "crossNavigation": {
       "inbounds": {
         "semanticobjecthelloworld-show": {
