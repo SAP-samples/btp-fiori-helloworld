@@ -3,7 +3,9 @@
 
 This tutorial uses the basic template to create a SAPUI5 app. The basic template is intended for all developers who want to start developing their own SAPUI5 app from scratch. 
 
-If you develop a business apps you may prefer using [Fiori Elements](https://experience.sap.com/fiori-design-web/smart-templates/) consuming services from Cloud Application Programming Model (CAP) or ABAP RESTful Application Programming Model (RAP). Fiori Elements provide less flexibility but speed up development by reducing the amount of frontend code needed to build SAP Fiori apps. 
+If you develop business apps you may prefer using [Fiori Elements](https://experience.sap.com/fiori-design-web/smart-templates/) consuming services from Cloud Application Programming Model (CAP) or ABAP RESTful Application Programming Model (RAP). 
+
+Fiori Elements provide less flexibility but speed up development by reducing the amount of frontend code needed to build SAP Fiori apps. 
 
 
 ### Open SAP Business Application Studio
