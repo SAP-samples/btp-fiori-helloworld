@@ -100,7 +100,7 @@ You have finished the previous tutorial and created and deployed a SAPUI5 app.
 
     Refresh the Content Channel. Otherwise it will stay empty.
 
-    ![](images/3_flp_4_channelrefresh.png)
+    ![](images/3_5_4_channelrefresh.png)
 
 6. Open Content Manager, and the Content Explorer.
 
