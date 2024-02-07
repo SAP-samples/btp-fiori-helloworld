@@ -27,10 +27,6 @@ You have finished the previous tutorial and created and deployed a SAPUI5 app.
     
     Search for `crossNavigation`.
 
-    ![](images/3_5_1_crossnavigation.png)
-
-
-
     ``` 
     "crossNavigation": {
       "inbounds": {
@@ -46,6 +42,9 @@ You have finished the previous tutorial and created and deployed a SAPUI5 app.
       }
     }
     ```
+
+    ![](images/3_5_1_crossnavigation.png)
+
 
 3. If you have no FLP configuration, add one. 
 
