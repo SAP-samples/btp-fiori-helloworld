@@ -27,7 +27,7 @@ You have finished the previous tutorial and created and deployed a SAPUI5 app.
     
     Search for `crossNavigation``.
 
-    ![](images/3_4_5_crossnavigation.png)
+    ![](images/3_5_1_crossnavigation.png)
 
 
     ```json 
