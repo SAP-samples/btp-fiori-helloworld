@@ -1,26 +1,10 @@
 
-# Setup your Enterprise Account for HTML5 Development
+# Optional: Setup your Enterprise Account for HTML5 Development with a Booster
 
-
-This step is only necessary for Enterprise Accounts. 
+This step is only necessary for Enterprise Accounts. This step is optional for Enterprise Accounts, if you want to use a "Booster" to setup your subaccount instead of configuring it manually.
 
 SAP BTP Trial comes with a pre-configured HTML5 application development.
 
-
-
-
-
-### Prerequisites 
-
-Make sure you have the Global Account Administrator role for your Global Account.
-
-1. Open your SAP BTP Cockpit of your Global Account.
-
-2. Select **"Users"** in the left navigation pane, and click on your **User Name**. 
-
-   A detail view will open. The "Role Collection" **Global Account Administrator** must be assigned to your user.
-
-    ![](images/2_ea_1_checkadmin.png)
 
 
 
@@ -102,8 +86,6 @@ Press **Next** when finished.
 
 
 ![](images/2_ea_7_booster_step2.png)
-
-
 
 
 
