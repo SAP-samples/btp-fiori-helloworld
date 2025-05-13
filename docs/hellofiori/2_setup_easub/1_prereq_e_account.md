@@ -17,14 +17,15 @@ For your enterprise account, you will need the entitlements for
 * SAP Build Work Zone service 
 * SAP Continuous Integration and Delivery service (optional if you want to try CI/CD)
 * Cloud Foundry Runtime (if you want to deploy your html5 app to SAP BTP Cloud Foundry)
+* An existing SAP Cloud Identity Services - Identity Authentication
 
-If you are using a cloud-credit-based SAP BTP account, the entitlements are already in place. But be are aware, that you will consume cloud credits if you do not use free-tier service plans.
+If you are using a cloud-credit-based SAP BTP account, the entitlements are already in place. However, we are aware that you will consume cloud credits if you do not use free-tier service plans.
 
 If you are using a subscription based SAP BTP account, you will have to configure the entitlements for your Subaccount.
 
-SAP Business Application Studio, SAP BTP, Cloud Foundry Runtime, SAP Build Work Zone service and SAP Continuous Integration and Delivery service will be set-up manually. To use it follow the set-up guide for Enterprise Accounts in this mission.
+SAP Business Application Studio, SAP BTP, Cloud Foundry Runtime, SAP Build Work Zone service, and SAP Continuous Integration and Delivery service will be set up manually. To use them, follow the set-up guide for Enterprise Accounts in this mission.
 
-You will need SAP BTP global account administrator privilege in your enterprise account.
+You will need SAP BTP global account administrator privileges in your enterprise account.
 
 
 ### SAP BTP Trial Account
