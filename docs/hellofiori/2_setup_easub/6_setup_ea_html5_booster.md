@@ -23,7 +23,7 @@ For this mission you run the Booster "Prepare an Account for HTML5 development".
 
 3. Select the Booster and click **Start**. 
 
-4. You will see the start screen of the booster. Select the **Components** tab in the booster and notice the required services and subscriptions. 
+4. You will see the booster's start screen. Select the Components tab in the booster and notice the required services and subscriptions. 
 
 
     ![](images/2_ea_3_booster_comps.png)
@@ -37,7 +37,7 @@ The Booster will check the required entitlements of your Global Account for exec
 
 1. **Option 1 - Booster passes**
 
-    If all prerequisites are full-filled, you will get a success message
+    If all prerequisites are fulfilled, you will get a success message
     
     ![](images/2_ea_5_booster_pass.png)
 
@@ -50,7 +50,7 @@ The Booster will check the required entitlements of your Global Account for exec
 
     ![](images/2_ea_4_booster_fails.png)
 
-    In this example you miss all 4 required **entitlements** for the booster. 
+    In this example, you miss all 4 required **entitlements** for the booster. 
 
     (Note: Continuous Integration & Delivery service is optional)
 
@@ -61,7 +61,7 @@ The Booster will check the required entitlements of your Global Account for exec
 
 3. **Option 3 - Booster Warning**
 
-    In case, you do not have the Continuous Integration & Delivery Application, you will get a warning, which you can ignore. It is optional for this mission.
+    In case you do not have the Continuous Integration & Delivery Application, you will get a warning, which you can ignore. It is optional for this mission.
     
     ![](images/2_ea_6_booster_warning.png)
     
@@ -95,7 +95,7 @@ Press **Next** when finished.
 In this step, we can add additional users as administrators and developers for the subaccount. <br>
 The user who is using the Booster is added automatically as Administrator and also added as a Security Admin.
 
-
+* Select and add your "Custom Identity Provider for Applications" 
 * Add administrators
 * Add developers
 
@@ -140,7 +140,7 @@ You can check which entities the booster created:
     - SAP Business Application Studio
     - Launchpad Service
     - Continuous Integration & Delivery Service (optional)
-
+    
     and a Cloud Foundry Environment has been created.
 
    ![](images/2_ea_13_account_inspect.png)
@@ -148,25 +148,29 @@ You can check which entities the booster created:
 
 2. Click on "SAP Business Application Studio". This will open the BAS.
 
+3. Check your Trust Configuration. Your user should be added to your Custom Identity Provider for Applications.
 
-3. Click on "Launchpad Service". This will open the launchpad site.
+4. Click on "Launchpad Service". This will open the launchpad site.
 
    If you get the error message **"Access Denied"**, your user has not been assigned the role collection "Launchpad_Admin".
 
-   Go to "Users", click on your user and assign the "Role Collection" "Launchpad Admin".
+   Go to "Users", click on your user, and assign the "Role Collection" "Launchpad Admin".
 
-4. Click on "Cloud Foundry" --> "Spaces".
-   
-    You will see your CF space dev. Click on it to enter it.
+5. When you click the first time, you might have to log in to your Custom Identity Provider for Applications. 
+ 
+    Your password might be different from the Default Identity Provider for your BTP Subaccount. 
 
-5. Click on "Security" --> "Users".
+6. Click on "Security" --> "Users".
     
     You should see all users assigned to the subaccount. A click on the arrow adds details, including their role collections.
 
-6. Click on "Security" - "Role Collections":
+7. Click on "Security" - "Role Collections":
     
     You can see all the role collections for the different services the booster created. 
 
+8. Click on "Cloud Foundry" --> "Spaces".
+   
+    You will see your CF space dev. Click on it to enter it.
 
 
 
