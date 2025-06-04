@@ -1,11 +1,9 @@
 
 # Optional: Setup your Enterprise Account for HTML5 Development with a Booster
 
-This step is only necessary for Enterprise Accounts. This step is optional for Enterprise Accounts, if you want to use a "Booster" to setup your subaccount instead of configuring it manually.
+This step is only necessary for Enterprise Accounts. This step is optional for Enterprise Accounts, if you want to use a "Booster" to set up your subaccount instead of configuring it manually.
 
-SAP BTP Trial comes with a pre-configured HTML5 application development.
-
-
+**Note:** You need a Cloud Identity Services tenant (Identity and Authentication service, IAS). If you don't have one, create one first. If you need help creating one, see the mission "Get Started with SAP BTP—Cloud Identity Service Provider" in the Discovery Center.
 
 
 ### Run Booster Prepare an Account for HTML5 development
