@@ -14,7 +14,7 @@ Note: Optional. You can also run this mission without using Continuous Integrati
 
     ![](images/2_trial_cicd_01_create.png)
 
-2. Select "SAP Continuous Integration and Delivery" as Service and select "trial" as service plan.
+2. Select "SAP Continuous Integration and Delivery" as the Service and select "trial" as the service plan.
 
   ![](images/2_trial_cicd_02_create.png)
 
@@ -31,9 +31,9 @@ Note: Optional. You can also run this mission without using Continuous Integrati
 
     
 
-5. Navigate in the left handed navigation pane of the BTP Cockpit to **Security --> Users**. Click on users.
+5. Navigate in the left-handed navigation pane of the BTP Cockpit to **Security --> Users**. Click on users.
 
-    In a trial account you will basically see your own user. Click on your user. 
+    In a trial account, you will basically see your own user. Click on your user. 
 
 6. Click on "Assign Role Collection".
 
@@ -48,7 +48,7 @@ Note: Optional. You can also run this mission without using Continuous Integrati
 
     ![](images/2_trial_cicd_06_assign_roles_2.png)
 
-8. Refresh the cache of your Browser completely (easiest way is to close the browser and open again).
+8. Log off and log in again, or lose the browser and reopen it.
 
 9. Go back to "Services" --> Instances and Subscriptions" and click "SAP Continuous Integration and Delivery" again. 
 

@@ -1,4 +1,4 @@
-## Develop a SAPUI5 Freesytle App with Nortwind Products OData service
+## Develop a SAPUI5 Freestyle App with Nortwind Products OData service
 
 Note: This tutorial is for educational and training purposes and is not suitable for productive use.
 SAP Fiori Templates used in this tutorial are deprecated.
@@ -29,22 +29,22 @@ This service will be important, as we need a third table to get the CategoryName
 https://services.odata.org/V2/Northwind/Northwind.svc/Products?$expand=Category <br>
 
 
-> Hint: You can check the database design and relations for example with [XOData (external link)](https://pragmatiqa.com/xodata/)
+> Hint: You can check the database design and relations, for example, with [XOData (external link)](https://pragmatiqa.com/xodata/)
 
 
-## Develop a SAPUI5 Freestyle App using Categeries and Products
+## Develop a SAPUI5 Freestyle App using Categories and Products
 
 ### Prequisites
 
-> Note: If you are not yet familiar with the basics of SAP BTP, Subaccounts for html5 development, Business Application Studio and SAP Fiori Tools, complete this very detailed guide on SAP Discovery Center first: [Get started on SAP BTP creating a "Hello World" app with SAPUI5/Fiori](https://discovery-center.cloud.sap/missiondetail/3585/3628/).
+> Note: If you are not yet familiar with the basics of SAP BTP, Subaccounts for HTML5 development, Business Application Studio, and SAP Fiori Tools, complete this very detailed guide on SAP Discovery Center first: [Get started on SAP BTP creating a "Hello World" app with SAPUI5/Fiori](https://discovery-center.cloud.sap/missiondetail/3585/3628/).
 
-Set-up your Subaccount with Cloud Foundry Environment for HTML5 development including Business Application Studio and create a SAP Fiori Dev Space.
+Set up your Subaccount with Cloud Foundry Environment for HTML5 development, including Business Application Studio, and create a SAP Fiori Dev Space.
 
 <br>
 
 ### Create a Destination in BTP Cockpit 
 
-**Note:** this step is optional and not required if you do not want to deploy your applciation.
+**Note:** This step is optional and not required if you do not want to deploy your application.
 
 1. Enter your BTP account 
    * For trials: https://account.hanatrial.ondemand.com
@@ -89,69 +89,82 @@ Set-up your Subaccount with Cloud Foundry Environment for HTML5 development incl
 
 1. Open your BAS
 2. Open your Fiori Dev Space.
-3. Optional: This step is only needed if you want to deploy your app into your Cloud Foundry html5 repository.
-   Connect to your Cloud Foundry endpoint of your CF subaccount. 
+3. Optional: This step is only needed if you want to deploy your app into your Cloud Foundry HTML5 repository.
+   Connect to the Cloud Foundry endpoint of your CF subaccount. 
    Start the command palette from the menu View > Find Command, search for cf:login, and select the command `CF:Login to Cloud Foundry`.
+   
    Enter the Cloud Foundry endpoint you want to use. Enter your email and your password to proceed.
-   Next, you need to select the Cloud Foundry Organization and space you want use.
+   
+   Next, select the Cloud Foundry Organization and space you want to use.
 
 ### Create a Project from Template with an SAP Fiori List-Detail Application Template 
 
-1. Open your Business Application Studio (BAS)
-2. Open the Get Started Home Page (you can reopen it always navigating to Menu Bar --> Help --> Get Started).
+1. Open your Business Application Studio (BAS).
+
+2. Open the Get Started Home Page (you can always reopen it by navigating to Menu Bar --> Help --> Get Started).
+
 3. Select **Start from template**.
+
 4. Select **SAP Fiori Application** and press "Start".
+
 5. Select **SAPUI5 freestyle** as Application Type.
+
 6. Select SAP Fiori **SAP Fiori Worklist Application**.
 
    ![](images/6_1_prod_1_template.png)
 
 7. In the step **Data Source and Service Selection** select as **Data Source**: 
-   * Option A: "Connect to a System" to use the backend Northwind definition. Choose if you want to deploy your app to the backend. <br>
-     Choose "Northwind". <br>
+
+   * Option A: "Connect to a System" to use the backend Northwind definition. Choose if you want to deploy your app to the backend. 
+
+     Choose "Northwind". 
+
      The Service Path is `V2/Northwind/Northwind.svc/`. (wait until the system has checked the provided path)
-   * Option B: "Connect to an OData Service" if you dont want to deploy your app.
-     The OData V2 service URL is: https://services.odata.org/V2/Northwind/Northwind.svc/ . <br>
+
+   * Option B: "Connect to an OData Service" if you don't want to deploy your app.
+     The OData V2 service URL is https://services.odata.org/V2/Northwind/Northwind.svc/.
+
      The service metadata will be loaded in the background. 
 
    ![](images/6_1_prod_2_datasource.png)
 
 8. Press "Next".
 
-9. Next step is the Service entity selection. You need 1 entity set for the master and the detail view. <br>
+9. The next step is the Service entity selection. You need 1 entity set for the master and the detail view. <br>
     
-    **Note:** The Worklist template comes preconfigured for a standard use case. It does not always fit to the service used. So make your best guess. You can change it later.
+    **Note:** The Worklist template comes preconfigured for a standard use case. It does not always fit the service used. So make your best guess. You can change it later.
 
-    For <br>
-    **Object collection** select the "table" "Products" <br>
-    **Object collection key** select "Product"ID" <br>
-    **Object ID** select "ProductName" (just shows the Product name in the list) <br>
-    **Object number** select "CategoryID" or "None" <br>
-    **Object unit of measure** select "UnitPrice" or "None" <br>
+    - For **Object collection** select the "table" "Products"
+    - For **Object collection key** select "Product"ID"
+    - For **Object ID** select "ProductName" (just shows the Product name in the list) 
+    - For **Object number** select "CategoryID" or "None"
+    - For **Object unit of measure** select "UnitPrice" or "None" 
 
 
     ![](images/6_1_prod_2_entities.png)
 
     <br>
 
-10. Provide the Project Atrributes <br>
-    Modul name: ui5northwindproducts   <br>
-    Application title: as you like <br>
-    Application namespace: sap.btp  <br>
-    Description: as you like <br>
-    Project folder path: keep the standards <br>
-    Minimum SAPUI5 version: Same, keep it <br>
-    Add deployment configuration: "YES" (it is optional, in case you want to deploy to BTP Cloud Foundry runtime) <br>
-    Skip FLP and advanced options. You can add FLP configs also later.  <br>
+10. Provide the Project Attributes
+
+    - Module name: ui5northwindproducts
+    - Application title: as you like
+    - Application namespace: sap.btp
+    - Description: as you like
+    - Project folder path: keep the standards
+    - Minimum SAPUI5 version: Same, keep it
+    - Add deployment configuration: "YES" (it is optional, in case you want to deploy to BTP Cloud Foundry runtime)
+    - Skip FLP and advanced options. You can add FLP configs also later. 
 
     ![](images/6_1_prod_3_project.png)
 
 11. Choose **Next** or **Finish**. 
 
-12. if you choosed add deployment configuration: "Yes", the Deployment Configuration step screen will appear.
-    Target: Choose "Cloud Foundry <br>
-    Destination Name: "Northwind" (or "None" if you did not choose to deploy) <br>
-    Add application to managed application router?: "Yes" (keep it, this will ease deployment) <br>
+12. If you chose to add deployment configuration: "Yes", the Deployment Configuration step screen will appear.
+
+    - Target: Choose "Cloud Foundry"
+    - Destination Name: "Northwind" (or "None" if you did not choose to deploy) 
+    - Add application to managed application router?: "Yes" (keep it, this will ease deployment) 
 
 13. Choose **Finish**
 
@@ -163,34 +176,34 @@ Set-up your Subaccount with Cloud Foundry Environment for HTML5 development incl
 
 ### Preview your new Application
 
-1. Open your project folder in BAS from Menu Bar with **File --> Open Folder**.
+1. Open your project folder in BAS from the Menu Bar with **File --> Open Folder**.
 
 2. Right-click you app **ui5northwindproducts** and select **Preview Application**.
 
-3. Choose **start-noflp** as option (you may also try out other options).
+3. Choose **start-noflp** as an option (you may also try out other options).
 
    ![](images/6_1_prod_4_noflp.png)
 
 4. Disable your pop-up blocker if necessary.
 
 5. Enjoy your app on localhost. Columns and content are not yet perfect. 
-   You will do this later in the tuorial.
+   You will do this later in the tutorial.
 
    ![](images/6_1_prod_5_noflp_app.png)
 
 
 ### Optional preview with "start-mock"
 
-There is also the option to start this application just with local mockdata. 
+There is also the option to start this application just with local mock data. 
 
 1. Check your folder home/user/project/ui5odataproducts/webapp/localservice. <br>
-   The Fiori project generator stored the metadata.xml in your project. So SAPUI5 can create mock-data out of it.
+   The Fiori project generator stored the metadata.xml in your project. So SAPUI5 can create mock data out of it.
 
 2. Right-click you app ui5odataorders and select **Preview Application**.
 
 3. Choose **start-mock** as option.
    
-4. Enjoy the result. Note: It shows also how the redesigned app will look like.
+4. Enjoy the result. Note: It also shows how the redesigned app will look.
 
    ![](images/6_1_prod_6_mock.png)
 
@@ -206,23 +219,24 @@ There is also the option to start this application just with local mockdata.
 
 3. You see the folder "webapp" and a couple of config files, which are not relevant for the webapp, but for the UI5 project, using BAS and Fiori Tools:
    * ui5.yaml with the variants -mock, -local and -deploy. Note the backend parameters.
-   * xs-security.json contains the security profile of the application. You did not define in this example scopes, roles and attributes.
-   * xs-app.json is used to configure the application routing. Note "welcomeFile": "/index.html",  and "source": "^(.*)$", with the cloud foundry service "html5-apps-repo-rt" and the "authenticationType": "xsuaa", which means user have to be authenticated (other option is "none").
+   * xs-security.json contains the security profile of the application. You did not define the scopes, roles, and attributes in this example.
+   * xs-app.json is used to configure the application routing. Note "welcomeFile": "/index.html", and "source": "^(.*)$", with the Cloud Foundry service "html5-apps-repo-rt" and the "authenticationType": "xsuaa", which means users have to be authenticated (other option is "none").
    * package.json mainly contains a couple of run configurations. Note the option **start-noflp**, which you have already used.
 
 **Examine the important files of your webapp**
 
 1. Open the webapp folder of your project.
-2. Open "index.html", thats your standard home page. 
-3. Open manifest.json. Thats your app descriptor.  <br>
+2. Open "index.html", that's your standard home page. 
+3. Open manifest.json. That's your app descriptor.  <br>
    The manifest.json file contains static information about the webapp.  <br>
-   It contains mainly the id of the application, the "dataSources" used and the `"routing": { ... } ` definition, which defines when your Worklist.view.xml or Object.view.xml will be called.<br>
-   For example, you call the target "object" with the View "Object", when you provide "Products/{objectId}" in the URL. <br>
-   This configuration is ok for this tutorial, you can keep it.
-
-4. Open the webapp folder **view**, and open **Worklist.view.xml**. <br>
+   It contains mainly the ID of the application, the "dataSources" used, and the "routing": { ... } definition, which defines when your Worklist.view.xml or Object.view.xml will be called.
    
-5. Check the items definition for the list-view. It will call the `/Products` from Northwind (Concatenate with Backend destination and Northwind Service URL to https://services.odata.org/V2/Northwind/Northwind.svc/Products). This is fine, you will keep it.
+   For example, you call the target "object" with the View "Object" when you provide "Products/{objectId}" in the URL. <br>
+   This configuration is ok for this tutorial; you can keep it.
+
+5. Open the webapp folder **view**, and open **Worklist.view.xml**. <br>
+   
+6. Check the items definition for the list-view. It will call the `/Products` endpoint from Northwind (Concatenated with the Backend destination and Northwind Service URL to https://services.odata.org/V2/Northwind/Northwind.svc/Products). This is fine, you will keep it.
 
    ```
         items="{
@@ -233,38 +247,40 @@ There is also the option to start this application just with local mockdata.
             }
    ```
    
-   Check definition of the `<table>`, `<colums>` and `<items>` of this view. 
+   Check the definition of the `<table>`, `< columns>`, and `<items>` of this view. 
 
 
 5. Open `Object.view.xml`. <br>   
 
 6. Check the data source for the Object view. It gets the data from the Worklist view. <br>
    Check the definition of the <semantic:headerContent> in this view. 
-   It shows already some data, but in the formatting of the template. You will change this later.
+   It already displays some data, but in the template's formatting. You will change this later.
 
 
 
 
 ### Redesign your Application
 
-Show 4 columns instead of 2 in the detail-view and remove unnecessary template left-overs.
+Show 4 columns instead of 2 in the detail view and remove unnecessary template leftovers.
 
 #### Change in the i18n.properties file
 
-First Make a small change to see the impact.
+First, make a small change to see the impact.
 
 1. Open your project folder --> webapp --> i18n.properties
-2. Change `worklistTableTitle=SAPUI5 Worklist with Northwind OData Service` to `worklistTableTitle=Manage Products`.
+2. 
+3. Change `worklistTableTitle=SAPUI5 Worklist with Northwind OData Service` to `worklistTableTitle=Manage Products`.
 
-Tip: You can search in BAS for semantic:headerContent simply by pressing CTRL + F. <br>
+Tip: You can search in BAS for semantic:headerContent simply by pressing CTRL + F. 
+
 You will change other text values directly in Views.
 
 
 #### Changes in the Worklist
 
-1. In  `Worklist.view.xml` find the `<Table>` definition , extend the items query in order to get the CategoryName later:
+1. In  `Worklist.view.xml`, find the `<Table>` definition, extend the items query in order to get the CategoryName later:
  
-   ```Javascript
+   ```JavaScript
                 items="{
                     path: '/Products',
                     parameters: {expand: 'Category'},
@@ -274,9 +290,9 @@ You will change other text values directly in Views.
                     }
    ```
 
-2. Replace colums and items with your new defition:
+2. Replace columns and items with your new definition:
 
-   ```Javascript
+   ```JavaScript
                 <columns>
                     <Column id="nameColumn1">
                         <Text text="{i18n>tableNameColumnTitle}" id="nameColumnTitle1"/>
@@ -313,8 +329,9 @@ You will change other text values directly in Views.
 
 #### Changes in the Object.view.xml
 
-1. in the `Object.view.xml` change the Worklist product details in `<semantic:headerContent>`. <br>
-   Paste the following code (you may save your old code locally if you want to compare it later). <br>
+1. In the `Object.view.xml`, change the Worklist product details in `<semantic:headerContent>`.
+
+   Paste the following code (you may save your old code locally if you want to compare it later). 
 
    ```
         <semantic:headerContent>
@@ -334,7 +351,7 @@ You will change other text values directly in Views.
             
 
 
-2. Preview your Application. Looks much better, isn`t it?
+2. Preview your Application. Looks much better, doesn`t it?
 
    ![](images/6_1_prod_7_newapp.png)
 
@@ -343,4 +360,4 @@ You will change other text values directly in Views.
 
 ### Conclusion
 
-The tutorial shows how to use a public odata provider to create a Fiori freestyle app in Business Application Studio. The code above can be used as a starting point for learning SAP Fiori Tools in BAS. 
+The tutorial shows how to use a public OData provider to create a Fiori freestyle app in Business Application Studio. The code above can be used as a starting point for learning SAP Fiori Tools in BAS. 

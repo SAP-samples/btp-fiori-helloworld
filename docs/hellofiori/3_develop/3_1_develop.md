@@ -1,9 +1,9 @@
 
 # Create a SAPUI5/SAP Fiori Freestyle app
 
-This tutorial uses the basic template to create a SAPUI5 app. The basic template is intended for all developers who want to start developing their own SAPUI5 app from scratch. 
+This tutorial uses the "Basic" template to create a SAPUI5 app. The basic template is intended for all developers who want to start developing their own SAPUI5 app from scratch. 
 
-If you develop a business apps you may prefer using [Fiori Elements](https://experience.sap.com/fiori-design-web/smart-templates/) consuming services from Cloud Application Programming Model (CAP) or ABAP RESTful Application Programming Model (RAP). Fiori Elements provide less flexibility but speed up development by reducing the amount of frontend code needed to build SAP Fiori apps. 
+If you develop a business app, you may prefer using [Fiori Elements](https://experience.sap.com/fiori-design-web/smart-templates/), consuming services from Cloud Application Programming Model (CAP) or ABAP RESTful Application Programming Model (RAP). Fiori Elements offers less flexibility but accelerates development by reducing the amount of frontend code required to build SAP Fiori apps. 
 
 
 ### Open SAP Business Application Studio
@@ -14,7 +14,7 @@ If you develop a business apps you may prefer using [Fiori Elements](https://exp
 
    ![](images/3_1_1_devspace_goto.png)
 
-3. Please, accept the Privacy Statement
+3. Please accept the Privacy Statement
 
 4. Discover the SAP Business Application Studio home page.
 
@@ -31,24 +31,24 @@ If you develop a business apps you may prefer using [Fiori Elements](https://exp
 
     Select as type **SAP Fiori**. 
 
-    If you are not yet familiar with BAS extensions do not select any additional extensions here. 
+    If you are not yet familiar with BAS extensions, do not select any additional extensions here. 
    
     ![](images/3_1_2_devspace_create.png)
 
-3. Click again **Create Dev Space** in the lower right corner.
+3. Click again on **Create Dev Space** in the lower right corner.
 
     You will be forwarded to the overview homepage of your Dev Space(s). 
    
     ![](images/3_1_3_devspace_start.png)
 
-    Once started the status changes from "STPPED" to "STARTING" to "RUNNING” and the dev space name  will turn into a blue hyperlink.
+    Once started, the status changes from "STPPED" to "STARTING" to "RUNNING,” and the dev space name  will turn into a blue hyperlink.
 
     ![](images/3_1_4_devspace_enter.png)
 
 
-4. Click on the dev space link (e.g. "Fiori") to enter the space.
+4. Click on the dev space link (e.g., "Fiori") to enter the space.
 
-   After a few seconds ... you will see your BAS dev space. 
+   After a few seconds, you will see your BAS dev space. 
 
 
 
@@ -60,23 +60,23 @@ If you develop a business apps you may prefer using [Fiori Elements](https://exp
 
 1. Click on **New Project from template** in the Get Started tab or **Create Project" in the BAS Explorer.
 
-    If you closed the Get Started page, you can always get it back from the menue under Help --> Get Started.
+    If you closed the Get Started page, you can always get it back from the menu under Help --> Get Started.
 
    ![](images/3_1_5_project_new.png)
 
-2. In the New Project Wizard select **SAP Fiori Application**. Click **Start**.
+2. In the New Project Wizard, select **SAP Fiori Generator**. Click **Start**.
 
-   ![](images/3_1_6_newapp_0_fiori.png)
+   ![](images/3_1_6_newproject_fiorigenerator.png)
 
-3. In the **Template Selection** keep template type "Fiori" and choose **Basic**. Click **Next**.  
+3. In the **Template Selection** select **Basic**. Click **Next**.  
 
-    ![](images/3_1_7_newapp_1_basic.png)
+    ![](images/3_1_7_newp_fioribasic.png)
 
 4. In the **Data Source and Service Selection** choose **None** for Data source. You create a "Hello World" without data binding. 
 
     Choose **Next**.
 
-    ![](images/3_1_8_newapp_2.png)
+    ![](images/3_1_8_newtemplate_data.png)
 
 5. Under **Entity Selection** name your SAPUI5 view. 
 
@@ -84,45 +84,53 @@ If you develop a business apps you may prefer using [Fiori Elements](https://exp
 
     Choose **Next**
 
-    ![](images/3_1_9_newapp_3.png)
+    ![](images/3_1_9_newtemplate_view1.png)
 
 
 6. In the next step, **Project Attributes** choose names and a description for your "Hello World" app (examples see figure): 
 
     - Module name: `helloworldui5`
 
-    - Application title: `Hello World App Title`
+    - Application title: `Hello World App Title.`
 
     - Application namespace `sap.btp`
 
-    - Description: `A Fiori Hello World application`
+    - Description: `A Fiori Hello World application.`
 
-    - Keep Project folder path and Minimum SAPUI5 version
+    - Keep the Project folder path and the Minimum SAPUI5 version
 
-    - Add deployment configuration to MTA project: `Yes`
+    - Keep "Enable TypeScript" eq "No". Optional: "Yes". In this case, the Fiori Generator will generate a TypeScript file. You cannot use the small JavaScript example from this tutorial later.
 
-    - Add FLP configuration: `Yes`
+    - Add deployment configuration to MTA project: `Yes`.
 
-    - Configure advanced options: `No`
+    - Add FLP configuration: `Yes`.
+
+    - Use Virtual Endpoints: "Yes".
+
+    - Configure advanced options: `No`.
 
     Choose **Next**.
     
-    ![](images/3_1_9_newapp_4.png)
+    ![](images/3_1_10_newtemplate_attr.png.png)
 
 7. In the next step, **Deployment Configuration** choose **Cloud Foundry** as a target.
 
     - Target: Cloud Foundry
     - Destination Name: None
-    - Add application to managed application router: `Yes` 
+    - Add application to managed application router: `Yes`
 
-      (Managed application router is the standard html5 repository from the SAP Work Zone service and eases deployment). 
+      The Managed Application Router is the standard HTML5 repository from the SAP Work Zone service, which eases deployment. 
+
+      You can also use "Application Frontend Service," which is more convenient for larger projects, but it is not part of this tutorial. For more information, see ["What Is Application Frontend Service?"](https://help.sap.com/docs/application-frontend-service/application-frontend-service/what-is-application-frontend-service?locale=en-US&version=LATEST).
 
     Choose **Next**.
 
-    ![](images/3_1_10_newapp_5.png)
+    ![](images/3_1_10_newtemplate_deploy.png)
 
 
-8. The **SAP Build Work Zone** service needs some "Fiori Launchpad Configuration". 
+8. The **SAP Build Work Zone** service needs some "Fiori Launchpad Configuration".
+
+    You will need this configuration to add this app to your Work Zone Site.
 
     - Semantic Object: `semanticobjecthelloworld`
     - Action: `show`
@@ -130,28 +138,30 @@ If you develop a business apps you may prefer using [Fiori Elements](https://exp
 
 
 
-      ![](images/3_1_11_newapp_6.png)
+      ![](images/3_1_11_newtemplate_flp.png)
 
 
-    Choose **Finish**. It will take some time until all dependencies are installed.
+    Choose **Finish**. It will take some time for all dependencies to be installed.
 
 
 
-9. Click on **Open folder** for this tutorial. 
-    
-    (If you are already familiar with the concept of workspaces you can also choose "Add project to workspace")
+10. Click on **Open folder** if this popup appears. This opens the project folder. If you are already familiar with Workspaces, you can also add the project to your Workspace.
 
     ![](images/3_1_12_openfolder.png)
 
-10. After your App is generated, you should see the "Storyboard" of your Fiori application and in the Explorer.
+11. After the project is generated, the "Application Information" page and the "Storyboard" open. The Application Information page provides a helpful overview, from here you can also start tasks for this project.
 
-    ![](images/3_1_13_storyboard.png)
+    ![](images/3_1_13_application_info.png)
 
-11. Right click on the Fiori app and choose "Open Application Info". In the "Application Info" you can see additional details of your app and you can start from here additional tasks.
+12. The Storyboard provides a graphical overview of your application components (data models, services, UI front-ends of the application), as well as the connections between them.
 
-    ![](images/3_1_14_appinfo.png)
+    ![](images/3_1_12_storyboard.png)
 
-12. Optional: Open your Projects folder via menu: File --> Open Folder ... and enter "/home/user/projects" and select your project name.
+14. If you want to reopen the Application Infopage, you can right-click "webapp" in your project and reopen it.
+
+    ![](images/3_1_14_oppenapplinfo.png)
+
+15. Optional: Open your Projects folder via menu: File --> Open Folder ... and enter "/home/user/projects" and select your project name.
 
     
 ### Preview your application
@@ -165,11 +175,11 @@ If you develop a business apps you may prefer using [Fiori Elements](https://exp
 
     ![](images/3_1_16_preview_options.png)
 
-3. The preview application opens. As we did not develop any content so far you can just see the title: "Hello World App Title".
+3. The preview application opens. Since you have not developed any content yet, you will only see the title: "Hello World App Title".
 
     ![](images/3_1_17_preview_app.png)
 
-4. You can stop the script by "deleting" it or type `Ctrl+C` in terminal.
+4. You can stop the script by "deleting" it or typing `Ctrl+C` in the terminal.
 
     ![](images/3_1_18_preview_stop.png)
 
@@ -177,5 +187,5 @@ If you develop a business apps you may prefer using [Fiori Elements](https://exp
  
 
 
-Feel free to continue your work using [SAPUI5 Demo Kit](https://ui5.sap.com/#/).
+Feel free to continue your development work using [SAPUI5 Demo Kit](https://ui5.sap.com/#/).
  

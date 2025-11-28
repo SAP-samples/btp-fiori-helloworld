@@ -26,8 +26,8 @@ It is at the core of SAP’s product experience and design strategy.
 
 ![](images/d3_launchpad.png)
 
-SAP Build Work Zone enables organizations to establish a central point of access to SAP, custom-built, and third party applications and extensions, both on the cloud and on-premise. 
-Make use of the SAP Build Work Zone Service and create your own Work Zone with role-based and personalized business content accessible via desktop and mobile devices.
+SAP Build Work Zone enables organizations to establish a central point of access to SAP, custom-built, and third-party applications and extensions, both on the cloud and on-premises. 
+Utilize the SAP Build Work Zone Service to create your own Work Zone, featuring role-based and personalized business content that is accessible via both desktop and mobile devices.
 
 * [SAP Fiori Launchpad – Overview](https://experience.sap.com/fiori-design-web/launchpad/)
 * [What Is Launchpad Service?](https://help.sap.com/viewer/8c8e1958338140699bd4811b37b82ece/Cloud/en-US/9db48fa44f7e4c62a01bc74c82e74e07.html)
@@ -38,7 +38,7 @@ Make use of the SAP Build Work Zone Service and create your own Work Zone with r
 
 ![](images/d4_bas.png)
 
-SAP Business Application Studio (the next generation of SAP Web IDE) is a powerful and modern development environment, tailored for efficient development of business applications for the Intelligent Enterprise. Available as a cloud service, it provides developers a desktop-like experience similar to market leading IDEs, while accelerating time-to-market with high-productivity development tools such as wizards and templates, graphical editors, quick deployment, and more.
+SAP Business Application Studio is based on Code OSS, an open-source framework used for building Visual Studio Code. It is available as a cloud service, providing developers with a desktop-like experience similar to market-leading IDEs while accelerating time-to-market with high-productivity development tools, including wizards and templates, graphical editors, quick deployment, and more.
 
 * [What is the SAP Business Application Studio?](https://help.sap.com/docs/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/8f46c6e6f86641cc900871c903761fd4.html)
 * [SAP Business Application Studio in Service Catalog](https://discovery-center.cloud.sap/serviceCatalog/business-application-studio?region=all)

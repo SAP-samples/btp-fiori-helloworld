@@ -6,7 +6,7 @@ This tutorial shows how to create, add or change a deployment configuration for 
 
 ### Prerequisites
 
-You have set-up your Subaccount with 
+You have set up your Subaccount with 
 
  - Cloud Foundry environment 
  - Business Application Studio 
@@ -23,7 +23,7 @@ You have finished the previous tutorial and created and deployed a SAPUI5 app.
 
 2. Check if you have already created an FLP configuration. 
    
-    Open in project explorer the file helloworldui5 --> webapp --> manifest.json. 
+    Open the file helloworldui5 --> webapp --> manifest.json in the project explorer.
     
     Search for `crossNavigation`.
 
@@ -59,13 +59,13 @@ You have finished the previous tutorial and created and deployed a SAPUI5 app.
     where
 
     - Semantic Object:      a unique name of your choice
-    - Action:               an action "ID of your choice, for example	"display"
+    - Action:               an action "ID of your choice, for example,	"display"
     - Title:              	Your Title of an application
     - Subtitle (Optional):	Your Subtitle to be used by the tile
 
-4.  Scroll down your manifest.json Check the value of `"sap.cloud"`.
+4.  Scroll down your manifest.json. Check the value of `"sap.cloud"`.
 
-    In case you named your managed approuter for example "sapbtphelloworldui5", it should be:
+    In case you named your managed approuter, for example, "sapbtphelloworldui5", it should be:
 
     ```JSON
     "sap.cloud": {
@@ -91,18 +91,18 @@ You have finished the previous tutorial and created and deployed a SAPUI5 app.
 
     Note: If you get the error message "Access Denied", your user has not been assigned the role collection Launchpad_Admin. Go to Security --> Users, click on your user and assign the Launchpad_Admin role collection to your user.
 
-4. Create a new Site. Name it for example "Hello World Site"
+4. Create a new Site. Name it, for example, "Hello World Site"
 
     ![](images/3_5_3_site_add.png)
 
 
 5. Open the Channel Manager. 
 
-    Refresh the Content Channel. Otherwise it will stay empty.
+    Refresh the Content Channel. Otherwise, it will stay empty.
 
     ![](images/3_5_4_channelrefresh.png)
 
-6. Open Content Manager, and the Content Explorer.
+6. Open "Content Manager" and the "Content Explorer".
 
     ![](images/3_5_5_content_1.png)
 
@@ -113,7 +113,7 @@ You have finished the previous tutorial and created and deployed a SAPUI5 app.
 
 8. In Content Manager --> Content Explorer, add your Fiori UI to the Site Content Manager.
 
-    In this example another Fiori app has been already added to the Site Content Manager
+    In this example, another Fiori app has already been added to the Site Content Manager
 
     ![](images/3_5_5_addapp_3.png)
 
@@ -122,7 +122,7 @@ You have finished the previous tutorial and created and deployed a SAPUI5 app.
 
     ![](images/3_5_6_creategroup_1.png)
 
-10. Name it for example "HelloWorldGroup" and assign your Fiori app to the group.
+10. Name it, for example, "HelloWorldGroup" and assign your Fiori app to the group.
 
      Click "Save".
 
@@ -136,7 +136,7 @@ You have finished the previous tutorial and created and deployed a SAPUI5 app.
 
      ![](images/3_5_8_result.png)
 
-13. Go Site Directory and enter your site "Hello World" by clicking on the small "Go To Site"-icon.
+13. Go to the Site Directory and enter your site "Hello World" by clicking on the small "Go To Site" icon.
 
      ![](images/3_5_9_entersite_1.png)
 
@@ -144,9 +144,12 @@ You have finished the previous tutorial and created and deployed a SAPUI5 app.
 
      ![](images/3_5_9_entersite_2.png)
 
-15. You Hello World app will open:
+15. Your Hello World app will open:
 
      ![](images/3_5_9_enterapp_3.png)
+
+
+Congrats! You added your App to your Work Zone Site.
 
 
 

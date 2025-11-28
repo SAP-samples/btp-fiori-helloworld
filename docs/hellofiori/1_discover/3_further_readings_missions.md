@@ -2,9 +2,8 @@
 
 
 
-SAP Fiori missions to extend S/4HANA with a broader scope, including SAP S/4HANA backend, connectivity, data binding, and security:
+These are some SAP Fiori missions to extend S/4HANA with a broader scope, including SAP S/4HANA backend, connectivity, data binding, and security:
 
-A mission using CAP and Fiori Elements: [Get Started with SAP Cloud Application Programming (CAP), SAP Fiori, and SAP HANA Cloud](https://discovery-center.cloud.sap/missiondetail/4273/4534/)
 
 A mission using SAP Build Apps: [Keep the Core Clean Using SAP Build Apps with SAP S/4HANA](https://discovery-center.cloud.sap/missiondetail/4024/4228/)
 

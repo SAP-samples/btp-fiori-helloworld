@@ -2,7 +2,7 @@
 
 SAP Build Work Zone enables you to easily create business sites that provide centralized access to applications, such as the Hello World app you will create.
 
-SAP Build Work Zone Service is not pre-configured in your BTP trial account. You must subscribe to the service first.
+SAP Build Work Zone Service is not pre-configured in your BTP trial account. You must first subscribe to the service.
 
 In order to set up SAP Build Work Zone in your Enterprise or Trial Account, you first need to establish Trust and Federation between SAP Authorization and Trust Management Service and SAP Cloud Identity Services.
 
@@ -61,13 +61,13 @@ Navigate to Instances and Subscriptions in your subaccount. Check if you have al
 
      ![](images/2_trial_trust_12_cis_signin.png)
 
-     If you work with more than one CI service, you might receive an error. You have to delete your browser cache (easiest way is to close the browser and restart it)
+     If you work with more than one CI service, you might receive an error. Log off and log in again, or close your browser and reopen it.
 
      ![](images/2_trial_trust_13_cis_signin.png)
 
 12. Your Trial Cloud Identity Services Trial Account will open.
  
-     Feel free to investigate your account and the options you have. For the basic setup, you are done.
+     Feel free to review your account and explore the available options. For the basic setup, you are done.
 
      ![](images/2_trial_trust_11_cis_admin.png)
 
@@ -78,7 +78,7 @@ If you create an SAP Build Work Zone service in your Account now, you will fail.
 
 ![](images/2_trial_trust_20_subfailed.png)
 
-1. In your subaccount, navigate to "Security" --> "Trust Configuration". If you do not have a Custom Identity Provider for your business users yet, click on "Establish Trust". A pop-up wizard opens.
+1. In your subaccount, navigate to "Security" --> "Trust Configuration". If you do not have a Custom Identity Provider for your business users yet, click "Establish Trust." A pop-up wizard opens.
 
     ![](images/2_trial_trust_21_establish.png)
 
@@ -98,7 +98,7 @@ If you create an SAP Build Work Zone service in your Account now, you will fail.
 
     ![](images/2_trial_trust_25_new_cip.png)
 
-6. Go to "Security" --> "Users" and check your user(s) which are managed by the Custom Identity and Authentication tenant.
+6. Go to "Security" --> "Users" and check your user(s), which are managed by the Custom Identity and Authentication tenant.
 
     ![](images/2_trial_trust_26_newuser.png)
 

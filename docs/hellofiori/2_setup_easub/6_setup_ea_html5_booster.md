@@ -1,19 +1,21 @@
 
-# Optional: Setup your Enterprise Account for HTML5 Development with a Booster
+# Optional: Set up your Enterprise Account for HTML5 Development with a Booster
 
-This step is only necessary for Enterprise Accounts. This step is optional for Enterprise Accounts, if you want to use a "Booster" to set up your subaccount instead of configuring it manually.
+This step is only necessary for Enterprise Accounts. This step is optional for Enterprise Accounts, if you want to use a "Booster" to setup your subaccount instead of configuring it manually.
 
-**Note:** You need a Cloud Identity Services tenant (Identity and Authentication service, IAS). If you don't have one, create one first. If you need help creating one, see the mission "Get Started with SAP BTP—Cloud Identity Service Provider" in the Discovery Center.
+SAP BTP Trial comes with a pre-configured HTML5 application development.
 
 
-### Run Booster Prepare an Account for HTML5 development
+
+
+### Run Booster: Prepare an Account for HTML5 development
  
-A Booster is a wizard-based UI, which automates the administration steps to set up BTP services instead of configuring all necessary services manually.
+A Booster is a wizard-based UI that automates the administrative steps to set up BTP services, eliminating the need to manually configure all necessary services.
 
-For this mission you run the Booster "Prepare an Account for HTML5 development".
+For this mission, you run the Booster "Prepare an Account for HTML5 development".
 
 
-1. Open your Global Account and select **Boosters** in the left-handed navigation pane.
+1. Open your Global Account and select **Boosters** in the left-hand navigation pane.
 
 2. Search for the booster **Prepare an Account for HTML5 development**.
 
@@ -31,7 +33,7 @@ For this mission you run the Booster "Prepare an Account for HTML5 development".
 
 ### Booster Step 1: Check Prerequisites
 
-The Booster will check the required entitlements of your Global Account for executing the Booster.
+The Booster will verify the required entitlements of your Global Account to execute the Booster.
 
 1. **Option 1 - Booster passes**
 
@@ -42,7 +44,7 @@ The Booster will check the required entitlements of your Global Account for exec
 
 2. **Option 2 - Booster fails**
 
-    In case the booster step 1 fails, the booster execution will stop.
+    If the booster step 1 fails, the booster execution will terminate.
 
     Click on the red **"Failed"** button to see the root cause.
 
@@ -52,14 +54,14 @@ The Booster will check the required entitlements of your Global Account for exec
 
     (Note: Continuous Integration & Delivery service is optional)
 
-    This can be the case if you own an enterprise subscription account and you did not order the necessary subscriptions.    
+    This can be the case if you own an enterprise subscription account and have not ordered the necessary subscriptions.    
  
  
   
 
 3. **Option 3 - Booster Warning**
 
-    In case you do not have the Continuous Integration & Delivery Application, you will get a warning, which you can ignore. It is optional for this mission.
+    If you do not have the Continuous Integration & Delivery Application, you will receive a warning that you can ignore. It is optional for this mission.
     
     ![](images/2_ea_6_booster_warning.png)
     
@@ -76,9 +78,9 @@ In this step, you create the following entries to set up your subaccount. You wi
 - Region (e.g. "Frankfurt") 
 - Subdomain name (user-defined or keep the default)
 - Cloud Foundry Organization name (user-defined or keep the default)
-- Space name (e.g. "dev", from the typical setup with "dev", "test" and "prod")
+- Space name (e.g., "dev", from the typical setup with "dev", "test", and "prod")
 
-Note: If you do not have set an entitlement for the Continuous Integration & Delivery service it will not appear in the list. You can delete it if you don't want to use it. It is optional for this mission.
+Note: If you have not set an entitlement for the Continuous Integration & Delivery service, it will not appear in the list. You can delete it if you no longer wish to use it. It is optional for this mission.
 
 Press **Next** when finished.
 
@@ -88,33 +90,34 @@ Press **Next** when finished.
 
 
 
-### Booster Step 3: "Add users"
+### Booster Step 3: "Add Users"
 
-In this step, we can add additional users as administrators and developers for the subaccount. <br>
-The user who is using the Booster is added automatically as Administrator and also added as a Security Admin.
+In this step, we can add additional users as administrators and developers for the subaccount. 
+
+The user who uses the Booster is automatically added as an Administrator and also added as a Security Admin.
 
 * Select and add your "Custom Identity Provider for Applications" 
 * Add administrators
 * Add developers
 
-Press **Next**, when finished.
+Press **Next** when finished.
 
 ![](images/2_ea_8_booster_step3.png)
 
 
 ### Booster Step 4: "Review" and Execute
 
-You are nearly done. Review your configurations, if everything is correct, click **"Finish"**. 
+You are nearly done. Review your configurations; if everything is correct, click **"Finish"**. 
 
 
 ![](images/2_ea_9_booster_step4.png)
 
 
-The booster will start. Watch the progress screen, until it turns green for all setup steps.
+The booster will start. Watch the progress screen until it turns green for all setup steps.
 
 ![](images/2_ea_10_booster_run.png)
 
-When the Booster has executed successfully you will get a success window. 
+When the Booster has executed successfully, you will get a success window. 
 
 You can use the provided links to open your new subaccount and Business Application Studio.
 
@@ -156,11 +159,11 @@ You can check which entities the booster created:
 
 5. When you click the first time, you might have to log in to your Custom Identity Provider for Applications. 
  
-    Your password might be different from the Default Identity Provider for your BTP Subaccount. 
+    Your password may differ from the Default Password for your BTP Subaccount's Identity Provider. 
 
 6. Click on "Security" --> "Users".
     
-    You should see all users assigned to the subaccount. A click on the arrow adds details, including their role collections.
+    You should see all users assigned to the subaccount. Clicking the arrow adds details, including their role collections.
 
 7. Click on "Security" - "Role Collections":
     

@@ -1,7 +1,7 @@
-Wow! A huge congratulations to you and the team on a successful project. If you're reading this task, that means you've concluded your project.
+Congratulations to you on a successful project. If you're reading this task, that means you've concluded your project.
 
 
-To formally complete the project, please go back to the Project Board overview, click on the **More** Button in the top right corner and choose **Complete Mission**.
+To formally complete the project, please return to the Project Board overview, click the **More** Button in the top right corner, and select **Complete Mission**.
 
 ![](images/complete_mission.png)
 

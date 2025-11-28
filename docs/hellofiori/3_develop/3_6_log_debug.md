@@ -8,9 +8,9 @@ Breakpoints are helpful when you debug the event handling of an SAPUI5 object. Y
 - In the SAPUI5 Diagnostics window (Ctrl + Shift + Alt + S). See also [SAPUI5 Debugging](https://sapui5.hana.ondemand.com/sdk/#/topic/c9b0f8cca852443f9b8d3bf8ba5626ab#loioc9b0f8cca852443f9b8d3bf8ba5626ab)
 - In your Business Application Studio.
 
-Setting a breakpoint in the code of your app is quite comfortable, as you can do it quickly rather then finding it in the browser.
+Setting a breakpoint in the code of your app is quite comfortable, as you can do it quickly, rather than finding it in the browser.
 
-In this example you choose your `View1.controller.js` where you control your View1. 
+In this example, you choose your `View1.controller.js` where you control your View1. 
 
 **Procedure**
 
@@ -49,7 +49,7 @@ In this example you choose your `View1.controller.js` where you control your Vie
 
    Open the Developer Tools of your Browser.
 
-   Click in the app the button "Click the Button".
+   Click on the app button "Click the Button".
 
    The app will stop at the debugger statement.
 
@@ -61,7 +61,7 @@ In this example you choose your `View1.controller.js` where you control your Vie
 
    The app will execute. You
 
-   Click "Alert" Button in your Hello-World app. 
+   Click the "Alert" Button in your Hello-World app. 
 
    ![](images/3_6_4_alerted.png)
 
@@ -87,7 +87,7 @@ In this example you choose your `View1.controller.js` where you control your Vie
 3. You need to add the [sap/base/Log](https://sapui5.hana.ondemand.com/sdk/#api/module:sap/base/Log) API to your webapp in order to use write logs to the console. 
   
     - Add `"sap/base/Log"` to `sap.ui.define` 
-    - Add `Log` as additional function parameter and  
+    - Add `Log` as an additional function parameter and  
     - Add an example for each **Log Severity** 
  
    ```JavaScript
@@ -127,7 +127,7 @@ In this example you choose your `View1.controller.js` where you control your Vie
    );
    ```
 
-4. Open `helloworldui5/webapp/index.html` . 
+4. Open `helloworldui5/webapp/index.html`. 
 
    If you want to see all log levels, you have to add the **Log Level** `data-sap-ui-logLevel="debug"` to your index.html.
 
@@ -140,7 +140,7 @@ In this example you choose your `View1.controller.js` where you control your Vie
           ....
    ```
 
-5. Preview your app. Open the **console** of your browser for example with "F12" and scroll down. 
+5. Preview your app. Open the console of your browser, for example, by pressing "F12" and scrolling down. 
 
    Search for "Hello-World" to find your logs and set the "Default-Levels".
 

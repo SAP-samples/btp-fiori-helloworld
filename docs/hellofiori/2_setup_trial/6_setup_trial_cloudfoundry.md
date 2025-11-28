@@ -1,6 +1,6 @@
 # Enable Cloud Foundry in your Trial Environment
 
-SAP BTP trial comes with a pre-configured Cloud Foundry environment. In case you need to enable it again, for example for an additional subaccount, follow this procedure: 
+SAP BTP trial comes with a pre-configured Cloud Foundry environment. In case you need to enable it again, for example, for an additional subaccount, follow this procedure: 
 
 1. Enter your trial subaccount.
 
@@ -12,7 +12,7 @@ SAP BTP trial comes with a pre-configured Cloud Foundry environment. In case you
 
 3. Enter Instance Name and Org Name or keep default values.
 
-    In trial you will have only "trial" as service plan.
+    In the trial, you will have only "trial" as a service plan.
 
     Choose "Create".
 
@@ -27,7 +27,7 @@ SAP BTP trial comes with a pre-configured Cloud Foundry environment. In case you
     ![](images/2_trial_cf_03_create_space.png)
 
 
-6. Provide a Space Name, e.g. "dev". Keep the default values for roles for your user.
+6. Provide a Space Name, e.g., "dev". Keep the default values for roles for your user.
 
     Click "Create".
     

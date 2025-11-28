@@ -10,7 +10,7 @@ The SAP BTP trial account comes already with pre-configured entitlements for
 
 and you have the SAP BTP **global account administrator** privilege.
 
-In the next steps, you will create an SAP Universal ID and get a SAP BTP trial account .
+In the next steps, you will create an SAP Universal ID and obtain a SAP BTP trial account.
 
 
 
@@ -18,7 +18,7 @@ In the next steps, you will create an SAP Universal ID and get a SAP BTP trial a
 
 1. Visit https://www.sap.com/ and click the **Log On** icon in the upper-right corner.
 
-2. If you already have an SAP account (e.g. a P, S, C, D or I number) click `Log in` and provide username and password. 
+2. If you already have an SAP account (e.g., a P, S, C, D, or I number), click `Log in` and provide your username and password. 
 
 3. If you do not have an account yet, provide your registration information and click `Submit` to create an account. 
 
@@ -27,7 +27,7 @@ In the next steps, you will create an SAP Universal ID and get a SAP BTP trial a
 4. Access the [SAP BTP Trial Cockpit](https://cockpit.hanatrial.ondemand.com/trial/#/home/trial).
 
 
-5. If you create a new account you will have to choose your **Region**. 
+5. If you create a new account, you will have to choose your **Region**. 
 
    Click **Create Account**.
  

@@ -2,7 +2,7 @@
 
 SAP Build Work Zone enables you to easily create business sites that provide centralized access to applications, such as the Hello World app you will create.
 
-SAP Build Work Zone Service is not pre-configured in your BTP trial account. You must subscribe to the service first.
+SAP Build Work Zone Service is not pre-configured in your BTP trial account. You must first subscribe to the service.
 
 In order to set up SAP Build Work Zone in your Trial Account, you first need to establish Trust and Federation between SAP Authorization and Trust Management Service and SAP Cloud Identity Services (see previous tutorial)
 
@@ -28,7 +28,7 @@ In order to set up SAP Build Work Zone in your Trial Account, you first need to 
 
     You need to add the missing Role Collection "Launchpad_Admin" to your user. 
 
-    The required role collections have already been created with the subscription to the Launchpad Service.
+    The required role collections have already been created as part of the subscription to the Launchpad Service.
 
 5. In the left-handed navigation pane of the BTP Cockpit, navigate to **Security --> Users** and click on users.
 
@@ -55,7 +55,7 @@ In order to set up SAP Build Work Zone in your Trial Account, you first need to 
 
     The Work Zone Site Manager should open. 
     
-    In some cases, the browser still caches the old authorizations. In this case, close and restart the browser.
+    Log off and log in again, or close and restart your browser.
 
     ![](images/2_trial_wzone_06_enter_wz.png)
 

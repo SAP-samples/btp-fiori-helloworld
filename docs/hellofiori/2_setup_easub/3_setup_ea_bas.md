@@ -1,6 +1,6 @@
 # Setup SAP Business Application Studio
 
-SAP Business Application Studio (BAS), the next generation of SAP Web IDE is available as a cloud service. It provides developers a desktop-like experience similar to market leading IDEs with development tools such as wizards and templates, graphical editors, quick deployment, and more.
+SAP Business Application Studio (BAS) is based on Code OSS and available as a cloud service, featuring development tools such as wizards and templates, graphical editors, quick deployment, and more.
 
 
 
@@ -8,19 +8,19 @@ SAP Business Application Studio (BAS), the next generation of SAP Web IDE is ava
 
 In case you run the commercial model "subscription you might need to entitle your Subaccount.
 
-Note: You can only entitle your Subaccount, if you are entitled for SAP BAS in your Global Account.
+Note: You can only entitle your Subaccount if you are entitled to SAP BAS in your Global Account.
 
-1. Got to your Subaccount, where you want to deploy your BAS service.
+1. Go to your Subaccount, where you want to deploy your BAS service.
 
-    Goto "Entitlements" and search for "Studio".
+    Go to "Entitlements" and search for "Studio".
 
-    If your Subaccount is not entitled yet, select "Edit" --> "Add Service Plans"
+    If your Subaccount is not entitled yet, select "Edit" --> "Add Service Plans".
 
     ![](images/2_ea_bas_01_new.png)
 
-2. Search for "Studio", select BAS and add your required service plans.
+2. Search for "Studio", select BAS, and add your required service plans.
 
-    Select "Add ... Service Plans" and dont forget to **save**.
+    Select "Add ... Service Plans". Don't forget to **save**.
 
     ![](images/2_ea_bas_02_new.png)
 
@@ -29,15 +29,15 @@ Note: You can only entitle your Subaccount, if you are entitled for SAP BAS in y
     ![](images/2_ea_bas_03_new.png)
 
 
-### Create an Business Application Studio Subscription
+### Create a Business Application Studio Subscription
 
 1. Navigate to your Subaccount.
 
-    Select "Services" --> "Instances and Subscriptions" and choose "Create"
+    Select "Services" --> "Instances and Subscriptions" and choose "Create".
 
     ![](images/2_ea_bas_04_create.png)
 
-2. Choose Business Application Studio as Service and your Service plan. 
+2. Choose Business Application Studio as the Service and your Service plan. 
 
     Select "Create". Your BAS subscription will be created.
 
@@ -45,17 +45,17 @@ Note: You can only entitle your Subaccount, if you are entitled for SAP BAS in y
 
 3. Click on the small icon to access your BAS.
 
-    Access will be denied, because of missing authorizations/role collections of your user.
+    Access will be denied due to the missing authorizations/role collections for your user.
 
     ![](images/2_ea_bas_06_access.png)
 
-4. Go to to your Subaccount --> "Security" --> "Users" and select your User.
+4. Go to your Subaccount --> "Security" --> "Users" and select your User.
 
     ![](images/2_ea_bas_07_role.png)
 
 5. Scroll down to "Role Collections" and select "Assign Role Collection".
 
-    Select at least "Business_Application_Studio_Administrator" Role Collection and "Assign Role Collection"
+    Select at least "Business_Application_Studio_Administrator" Role Collection and "Assign Role Collection".
 
     ![](images/2_ea_bas_08_role.png)
 

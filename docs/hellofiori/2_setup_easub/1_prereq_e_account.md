@@ -6,7 +6,7 @@ You can get an Enterprise Account following the guide [Get an Enterprise Account
 
 We will guide you to get a Trial Account later in this mission.
 
-Optional: To run the **SAP Continuous Integration and Delivery** service, you will also need a public GitHub (Enterprise) account (e.g. at https://github.com/ )
+Optional: To run the **SAP Continuous Integration and Delivery** service, you will also need a public GitHub (Enterprise) account (e.g., at https://github.com/ )
 
 
 ### SAP BTP Enterprise Account
@@ -21,7 +21,7 @@ For your enterprise account, you will need the entitlements for
 
 If you are using a cloud-credit-based SAP BTP account, the entitlements are already in place. However, be aware that you will consume cloud credits if you do not use free-tier service plans.
 
-If you are using a subscription-based SAP BTP account, you will have to configure the entitlements for your Subaccount.
+If you are using a subscription-based SAP BTP account, you must configure the entitlements for your Subaccount.
 
 SAP Business Application Studio, SAP BTP, Cloud Foundry Runtime, SAP Build Work Zone service, and SAP Continuous Integration and Delivery service will be set up manually. To use them, follow the set-up guide for Enterprise Accounts in this mission.
 
@@ -43,14 +43,14 @@ The [SAP BTP Trial Account](https://account.hanatrial.ondemand.com/trial/#/home/
 
 SAP Business Application Studio and SAP BTP, Cloud Foundry Runtime will be pre-configured.
 
-The SAP Build Work Zone service and SAP Continuous Integration and Delivery service must be set-up manually. To use it follow the set-up guide for Trial Accounts in this mission.
+The SAP Build Work Zone service and SAP Continuous Integration and Delivery service must be set up manually. To use it, follow the set-up guide for Trial Accounts in this mission.
 
 
 ### Prerequisite Global Account Administrator
 
-Make sure you have the Global Account Administrator role for your Global Account.
+Ensure you have the Global Account Administrator role assigned to your Global Account.
 
-1. Open your SAP BTP Cockpit of your Global Account.
+1. Open your SAP BTP Cockpit for your Global Account.
 
 2. Select **"Users"** in the left navigation pane, and click on your **User Name**. 
 

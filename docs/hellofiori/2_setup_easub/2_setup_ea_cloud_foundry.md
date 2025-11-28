@@ -1,15 +1,15 @@
 # Enable Cloud Foundry Runtime in your Subaccount
 
-The SAP BTP, Cloud Foundry runtime lets you deploy cloud-native cloud foundry applications and run them on the SAP BTP Cloud Foundry environment.
+The SAP BTP, Cloud Foundry runtime lets you deploy cloud-native Cloud Foundry applications and run them on the SAP BTP Cloud Foundry environment.
 
-For example, you developed a SAPUI5 or Fiori application in your Business Application Studio (BAS) and you want to deploy it to SAP BTP and run it there.
+For example, you developed a SAPUI5 or Fiori application in your Business Application Studio (BAS), and you want to deploy it to SAP BTP and run it there.
 
 
 ### Use Existing or Create New Subaccount
 
 You can enable an existing Subaccount in your BTP Global Account or create a new Subaccount. 
 
-If you want to create a new Subaccount follow this procedure:
+If you want to create a new Subaccount, follow this procedure:
 
 1. Enter your Global Account --> Account Explorer.
 
@@ -20,7 +20,7 @@ If you want to create a new Subaccount follow this procedure:
     ![](images/2_ea_suba_01_create.png)
 
 
-2. Provide a name for the Subaccount, the Region (choose carefully) and Subdomain.
+2. Provide a name for the Subaccount, the Region (choose carefully), and the Subdomain.
 
     Choose "Create".
 
@@ -45,14 +45,14 @@ If you want to create a new Subaccount follow this procedure:
     - Service Plan ("standard")
     - Select the Landscape
 
-        Some regions provide "Sub-Landscapes" for technical reasons. Choose your Landscape depending on your Subaccount, commercial model and region.
+        Some regions provide "Sub-Landscapes" for technical reasons. Select your landscape based on your Subaccount, commercial model, and region.
 
-        For example, if your Subaccount is on eu-10 and your commercial model is "Subscription", choose eu-10-004 as cloud foundry landscape, in order to get enough free "Quota" on this landcsape.
+        For example, if your Subaccount is on eu-10 and your commercial model is "Subscription", choose eu-10-004 as the Cloud Foundry landscape to obtain sufficient free "Quota" on this landscape.
 
-        If your Subaccount is on eu-10 and your commercial model is "consumption based", choose eu-10 as cloud foundry landscape, you don`t need to maintain quota manually.
+        If your Subaccount is on eu-10 and your commercial model is "consumption-based", choose eu-10 as the Cloud Foundry landscape; you don't need to manually maintain quota.
 
     - Provide an "Instance Name" 
-    - Provide an Cloud Foundry "Org Name". 
+    - Provide a Cloud Foundry "Org Name". 
 
     Choose "Create"
     
@@ -60,7 +60,7 @@ If you want to create a new Subaccount follow this procedure:
 
     The Cloud Foundry Org will be created.
 
-3. Choose "Create Space"
+3. Choose "Create Space".
 
     ![Create Cloud Foundry Space](images/2_ea_cf_enable_03_space.png)
 
@@ -77,7 +77,7 @@ If you want to create a new Subaccount follow this procedure:
     You will be forwarded to your empty CF Space "dev".
 
 
-### Provide Cloud Foundry Runtime Quota (only Subscription based Accounts)
+### Provide Cloud Foundry Runtime Quota (only Subscription-based Accounts)
 
 1. Navigate in your Subaccount to "Entitlements".
 
@@ -87,11 +87,11 @@ If you want to create a new Subaccount follow this procedure:
 
     ![Create Cloud Foundry Quota](images/2_ea_cf_enable_05_quota.png)
 
-2. Click on "Add Service plans"
+2. Click on "Add Service Plans".
 
     ![Create Cloud Foundry Quota](images/2_ea_cf_enable_06_sp.png)
 
-3. Search for Cloud Foundry in the pop up window.
+3. Search for Cloud Foundry in the pop-up window.
 
     Select Cloud Foundry Runtime and select "Memory" as Plan.
 
@@ -103,6 +103,6 @@ If you want to create a new Subaccount follow this procedure:
 
 4. Increase the quota to your needs and **Save**.
 
-    Typically one deployed CF applications needs 1 quota.
+    Typically, one deployed CF application needs 1 quota.
 
     ![Create Cloud Foundry Quota](images/2_ea_cf_enable_08_save.png)

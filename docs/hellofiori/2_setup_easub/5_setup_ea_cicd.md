@@ -1,6 +1,6 @@
 # Setup SAP Continuous Integration and Delivery
 
-Note: Optional. You can also run this mission without using Continuous Integration and Delivery (CICD).
+Optional step. You can also run this mission without using Continuous Integration and Delivery (CICD).
 
 [SAP Continuous Integration and Delivery](https://discovery-center.cloud.sap/serviceCatalog/continuous-integration--delivery?region=all) lets you configure and run predefined continuous integration and delivery (CI/CD) pipelines that automatically build, test, and deploy your code changes to speed up your development and delivery cycles.
 
@@ -10,19 +10,19 @@ Note: Optional. You can also run this mission without using Continuous Integrati
 
 In case you run the commercial model "subscription you might need to entitle your Subaccount.
 
-Note: You can only entitle your Subaccount, if you are entitled for SAP CICD in your Global Account.
+Note: You can only entitle your Subaccount if you are entitled to SAP CICD in your Global Account.
 
-1. Got to your Subaccount, where you want to deploy your CICD service.
+1. Go to your Subaccount, where you want to deploy your CICD service.
 
-    Goto "Entitlements" and search for "Continuous".
+    Go to "Entitlements" and search for "Continuous".
 
-    If your Subaccount is not entitled yet, select "Edit" --> "Add Service Plans"
+    If your Subaccount is not entitled yet, select "Edit" --> "Add Service Plans".
 
     ![](images/2_ea_bas_01_new.png)
 
 2. Search for "Continuous", select "Continuous Integration and Delivery" and add your required service plans.
 
-    Select "Add ... Service Plans" and dont forget to **save**.
+    Select "Add ... Service Plans," and don't forget to **save**.
 
     ![](images/2_ea_cicd_02_new.png)
 
@@ -39,7 +39,7 @@ Note: You can only entitle your Subaccount, if you are entitled for SAP CICD in 
 
     ![](images/2_ea_bas_04_create.png)
 
-2. Select "Continuous Integration and Delivery" as Service and select "default" as service plan.
+2. Select "Continuous Integration and Delivery" as the Service and select "default" as the service plan.
 
     Click "Create"
 
@@ -49,25 +49,25 @@ Note: You can only entitle your Subaccount, if you are entitled for SAP CICD in 
 
 3. Click on the small icon of SAP Continuous Integration and Delivery to access your CICD.
 
-    Access will be usually denied, because of missing authorizations with role collections.
+    Access will usually be denied because of missing authorizations with role collections.
 
     ![](images/2_ea_cicd_06_access.png)
 
-4. Go to to your Subaccount --> "Security" --> "Users" and select your User.
+4. Go to your Subaccount --> "Security" --> "Users" and select your User.
 
     ![](images/2_ea_bas_07_role.png)
 
-5. Scroll down to "Role Collections" and select "Assign Roll Collection".
+5. Scroll down to "Role Collections" and select "Assign Role Collection".
 
-    Select at least "Business_Application_Studio_Administrator" Role Collection and "Assign Role Collection"
+    Select at least "Business_Application_Studio_Administrator" Role Collection and "Assign Role Collection."
 
     ![](images/2_ea_cicd_08_role.png)
 
-6. Refresh the cache of your Browser completely (easiest way is to close the browser and open again).
+6. Log off and log in again. Alternatively, you can close the browser and then reopen it.
 
 7. Go back to your Subaccount --> "Services" --> "Instances and Subscriptions" and click your BAS entry again.
 
-    You should see the bAS Welcome Page.
+    You should see the BAS Welcome Page.
 
     You are now able to create a BAS "Dev Space". You will do this later.
 
